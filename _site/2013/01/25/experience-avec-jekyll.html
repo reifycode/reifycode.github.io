@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+    
+	       Expérience avec Jekyll
+           - Schoewilliam 
+    
+    </title>
+    
+    
+    <meta name="description" content="Open web enthusiast, non-writer writer, Iceland dreamer.">
+    
+    
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <link rel="alternate" type="application/rss+xml" title="Schoewilliam.fr RSS (FR posts)" href="/flux.xml">
+    <link rel="alternate" type="application/rss+xml" title="Schoewilliam.fr RSS (EN posts)" href="/feed.xml">
+
+    <meta name="author" content="William Dorffer aka. Schoewilliam">
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    
+  </head>
+  
+  <body class="post">
+  
+    <header>
+        <div class="left">
+            <a onclick="document.querySelector('body > aside').classList.toggle('nav-shown'); document.querySelector('.menu').classList.toggle('shown');" class="menu"><span class="mega-octicon octicon-three-bars"></span></a>
+            
+            <a class="small-site-title" href="/">Schoewilliam</a>
+            
+        </div>
+        <div class="right">
+            
+            
+            
+                <a class="active" href="/2013/01/25/experience-avec-jekyll.html">fr</a>
+            
+            <a title="Allumer/Éteindre la lumière" class="lights"><span class="mega-octicon octicon-light-bulb"></span></a>
+        </div>
+    </header>
+
+    <aside>
+        <div class="book-title">
+            
+                <h1>Expérience avec Jekyll</h1>
+            
+        </div>
+
+        <nav id="nav">
+    
+        <a href="/a-propos">À Propos</a>
+    
+        <a href="/projets">Projets</a>
+    
+        <a href="/archive">Blog</a>
+    
+        <a href="/a-propos#contact">Contact</a>
+    
+</nav>
+
+
+        <nav id="prevnext">
+           
+                
+                    <a class="prev" title="Monsterwm : configuration et joyeusetés" href="/2013/01/11/monsterwm.html">
+                        Article précédent
+                    </a>
+                
+
+                
+                    <a class="next" title="dunst: notifications minimalistes et élégantes" href="/2013/02/16/dunst-notifications-minimalistes-et-elegantes.html">
+                        Article suivant
+                    </a>
+                
+           
+        </nav>
+    </aside>
+
+
+    <!-- Page content -->
+    <section>
+    <div class="post">
+        
+
+        <time datetime='25 January 2013' class="top">
+  
+  
+    25
+  
+
+
+
+ 
+ janvier
+    
+
+2013
+</time>
+        <p>On a, il y a quelques jours, métamorphosé cet espace sur le web.<br />
+Le principal motivateur de cette migration se trouve au cœur même du blog, ainsi que ma manière de le gérer.</p>
+
+<p><a href="http://en.wikipedia.org/wiki/File:Dr_Jekyll_and_Mr_Hyde_poster_edit2.jpg"><img src="/images/drjekyllmrhyde.jpg" alt="Dr. Jekyll and Mr. Hyde" class="align right" style="width:350px;" /></a></p>
+
+<p>À raison d’un rythme de publication léger, et d’un classement linéaire (chronologique), la véritable machine qu’est Wordpress finit par logiquement paraitre surdimensionnée. J’ai donc opté pour le fameux <strong><a href="https://github.com/mojombo/jekyll">Jekyll</a>, générateur de blog statique, en ruby</strong> !</p>
+
+<h2 id="avantages-tout-a">Avantages, tout ça.</h2>
+<p>Pour en expliquer le contexte ; les fichiers source sont en local, de là Jekyll génère un site <strong>statique</strong>, qu’il ne reste plus qu’à mettre à disposition sur le serveur (dans mon cas, à téléverser via FTP *¹). Et qui dit statique, dit très léger, et très rapide à charger.<br />
+Enfin, <strong>comble des avantages : pouvoir rédiger ses articles en markdown, avec vim.</strong></p>
+
+<p><strong>*¹</strong> <em>J’utilise par ailleurs pour ce téléversement via FTP, l’outil <strong>glynn</strong>. Son fonctionnement est simple : on exécute la commande <code>glynn</code> à la racine de notre source, entre les identifiants FTP, et glynn se charge du reste ; c’est-à-dire mettre à jour la génération statique, et la téléverser</em>.</p>
+
+<p>Puisque statique, un tel blog ne peut intégrer de commentaires, si ce n’est en javascript. J’ai rapidement testé <a href="http://talka.tv" target="\_blank">Talkatv</a>, maaaaais… non. Un peu radotant, et nécessite aux lecteurs d’avoir à s’incrire sur l’instance. Ce sera donc, sous le conseil d’<a href="https://olivier.dossmann.net/">Olivier</a> — que je salue — <a href="http://code.google.com/p/jskomment/"><strong>JSkomment</strong></a>. Il se trouve être très efficace et simple, et juste parfait pour mon utilisation.</p>
+
+<h2 id="cela-reste-joli">Cela reste joli</h2>
+<p>Du moins, je l’espère. Question apparence, on m’a répondu « <em>Eh bien, tu n’as pas peur du minimalisme !</em> ». Voilà qui résume magnifiquement.</p>
+
+<p><a href="/images/captures/blog-solarized.png"><img src="/images/captures/blog-solarized-mini.png" alt="capture d'écran Juin 2012" class="align center" /></a></p>
+
+<p>En bonus enfin, ci-dessus, la capture d’écran de l’un de mes premiers essais de Jekyll, datant de Juin 2012… Gare aux yeux, <a href="http://ethanschoonover.com/solarized" target="blank">ça pique</a>.</p>
+
+<p>Aussi, comme à mon habitude, tout est très loin d’être réservé. Les fichiers source de mon carnet sont à retrouver sur <a href="https://github.com/Schoewilliam/schoewilliam.legtux.org" target="\_blank"><strong>Github</strong></a>, y compris styles, structures, sources de mes billets (en markdown), et j’en passe. Libre aux langoustes de s’en inspirer !</p>
+
+
+        <p style="text-align:right;">
+        
+        
+            <span style="float:right; margin-left:.25em;" class="mega-octicon octicon-tag"></span>
+            <a href="/archive#jekyll">Jekyll</a>.
+        
+        
+        </p>
+    </div>
+</section>
+
+
+    <script src="/js/nightmode.js" type="text/javascript"></script>
+    <script src="/js/smooth-scroll.js" type="text/javascript"></script>
+
+     <!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik.schoewilliam.fr/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//piwik.schoewilliam.fr/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+  </body>
+</html>

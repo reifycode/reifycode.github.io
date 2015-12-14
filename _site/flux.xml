@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Schoewilliam - FR</title>
+		<description>Open web enthusiast, non-writer writer, Iceland dreamer.</description>		
+		<link>http://schoewilliam.fr</link>
+		<atom:link href="http://schoewilliam.fr/flux.xml" rel="self" type="application/rss+xml" />
+        
+		
+			<item>
+				<title>Radio Paradise, une radio multigenre soutenue par ses auditeurs</title>
+				     
+                    <description>&lt;p&gt;&lt;em&gt;J’ai aujourd’hui décidé de soutenir &lt;a href=&quot;http://radioparadise.com&quot;&gt;une radio&lt;/a&gt; en ligne que j’écoute déjà depuis plusieurs mois. Petite présentation et partage de ce projet que j’apprécie tous les jours.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Quand j’écoute de la musique, le plus souvent, je lance la lecture de ma discothèque de manière aléatoire, et je la laisse tourner pendant des heures, que ce soit en arrière-plan ou pour de l’écoute active. Ne pas contrôler précisément ce que j’écoute me permet de redécouvrir sans cesse ma discothèque, qui ne peut que grandir au fil du temps.&lt;/p&gt;
+
+&lt;p&gt;L’idée de &lt;a href=&quot;http://radioparadise.com&quot;&gt;Radio Paradise&lt;/a&gt; est de proposer une radio en ligne sans aucune publicité, totalement musicale, et financée spécifiquement par ses auditeurs.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;« Ce que vous n’entendrez pas : des listes de lectures générées aléatoirement et des publicités abrutissantes. »&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Quant à la musique diffusée, elle satisfaira un très grand nombre. Les genres varient beaucoup. Toutefois, l’harmonie est bien présente car une attention très particulière est accordée à l’enchainement des musiques.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;« RP est un mélange de nombreux styles et genres de musique, soigneusement sélectionnés et mixé par deux vrais êtres humains. »&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Les deux personnes derrière &lt;em&gt;Radio Paradise&lt;/em&gt; travaillent à &lt;em&gt;temps plein&lt;/em&gt; pour gérer tout ça, et concevoir des listes de lecture harmonieuses, sans grand écart de genre d’une piste à l’autre. Et je dois avouer : ils y parviennent à merveille.&lt;br /&gt;
+Ce d’autant plus que c’était dans cette optique que j’avais voulu me concevoir &lt;a href=&quot;/2013/08/02/music-schoewilliam-fr-résultat-dune-heure-d-ennui.html&quot;&gt;ma petite webradio personnelle&lt;/a&gt;, pour laquelle je concevais les listes de lecture avec soin.&lt;/p&gt;
+
+&lt;p&gt;Je vous la conseille donc, tout est sur &lt;a href=&quot;http://radioparadise.com&quot;&gt;radioparadise.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 18 Mar 2015 16:00:00 +0530</pubDate>
+				<link>http://schoewilliam.fr/2015/03/18/radio-paradise-fr.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2015/03/18/radio-paradise-fr.html</guid>
+			</item>
+		
+			<item>
+				<title>La disposition BÉPO vaut-elle toujours le coup ?</title>
+				     
+                    <description>&lt;p&gt;&lt;em&gt;(TL;DR) &lt;a href=&quot;/2011/07/08/adoption-du-clavier-bepo.html&quot;&gt;Mon enthousiasme&lt;/a&gt; pour la disposition BÉPO, après près de 4 ans, a faibli. J’essaie aujourd’hui de trouver du sens à mon sentiment, afin d’évaluer si, oui ou non, il est une bonne décision de continuer à l’utiliser. Du coup j’essaie &lt;a href=&quot;http://fabi1cazenave.github.io/qwerty-lafayette/&quot;&gt;des alternatives&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;J’utilise toujours et encore &lt;a href=&quot;http://bépo.fr&quot;&gt;la disposition BÉPO&lt;/a&gt;. J’y suis habitué, conditionné, et ne saurais même pas comment m’en passer de manière générale. À tel point que je songe à me forcer à repasser en AZERTY de manière occasionnelle, juste histoire de ne pas passer pour un ermite lorsque je dois me débrouiller avec un ordinateur qui n’est pas le mien.&lt;/p&gt;
+
+&lt;h2 id=&quot;alors-pourquoi-un-titre-pareil-&quot;&gt;Alors pourquoi un titre pareil ?&lt;/h2&gt;
+&lt;p&gt;Parce qu’aujourd’hui, ma perception de la disposition BÉPO a changé. Il y a un an encore, je passais mon temps à la recommander, à n’en dire que du bien, et à secrètement rêver qu’un jour elle devienne beaucoup plus populaire qu’aujourd’hui. Aujourd’hui, je m’en sers parce que j’y suis habitué et parce que les habitudes nous paraissent toujours si sacrées. Et il ne me semble plus forcément qu’elle soit aussi indispensable que j’aie pu le penser.&lt;/p&gt;
+
+&lt;p&gt;Du coup, il me faudrait dans l’idéal un bout de texte pour peser le pour et le contre et savoir où j’en suis (&lt;em&gt;ce billet&lt;/em&gt;). Et plus spécifiquement, pour donner une idée de mon expérience après quatre ans d’utilisation de la disposition.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;ce-qui-me-fait-garder-bpo&quot;&gt;Ce qui me fait garder BÉPO.&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;(TL;DR) BÉPO me convient toujours car elle est ce qu’elle a toujours été, une disposition ergonomique et conçue pour une meilleure saisie du français. Et en plus de cela, j’y suis aujourd’hui plus qu’habitué.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai passé des semaines entières, des mois entiers, à assimiler BÉPO. Et même si je l’ai fait de la manière la plus radicale qui soit (sans autocollants, sans &lt;em&gt;cheat sheet&lt;/em&gt;, sans clavier), elle me parait aujourd’hui tout à fait naturelle. Et ça, c’est un &lt;em&gt;effet&lt;/em&gt; absolument voulu. BÉPO est conçue pour être fluide, ergonomique, et agréable — et c’est pour cette raison qu’elle est si radicale et si différente. Elle repose le mouvement de mes mains et de mes doigts, et me permet en même temps de maintenir une vitesse de frappe plutôt élevée, avec la sensation d’une vitesse de croisière. Choisir une autre disposition serait renoncer à ça. Et je doute pour l’instant pouvoir trouver une expérience équivalente.&lt;/p&gt;
+
+&lt;p&gt;Le pouvoir de l’habitude joue un grand rôle. Et c’est la même raison qui explique pourquoi d’aussi nombreuses personnes qui entendent parler de BÉPO restent malgré tout avec leur disposition traditionnelle : ils y sont habitués, et finalement, cela vaut mieux que de tout bouleverser pour des avantages qui ne semblent pas bien concrets &lt;em&gt;a priori&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Enfin et surtout, BÉPO représente pour moi la meilleure expérience disponible pour écrire en français, juste après le bon vieux stylo. Elle rend les diacritiques et les ponctuations accessibles, là où AZERTY ne permet parfois simplement pas de les écrire (je pense à &lt;code&gt;«&lt;/code&gt; et &lt;code&gt;»&lt;/code&gt; par exemple).&lt;/p&gt;
+
+&lt;h2 id=&quot;ce-qui-me-fait-regretter-bpo&quot;&gt;Ce qui me fait regretter BÉPO.&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;(TL;DR) BÉPO ne me satisfait plus dans diverses petites situations du quotidien. Toutes ces situations (ou presque) relèvent du fait que BÉPO soit une disposition exotique et radicalement différente. Les petits tracas que cela engendre s’accumulent et peuvent malheureusement agacer.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Je l’évoque à plusieurs reprises déjà : apprendre et assimiler BÉPO m’a demandé un certain effort, et du temps. Ça, c’est parce que BÉPO est radicalement différente des disposition de clavier classiques. Cette différence, si elle est nécessaire pour accomplir l’idéal ergonomique qui fait partie de ses objectifs, est un défaut. Car non seulement de complexifier l’adoption, cela complexifie l’&lt;em&gt;interopérabilité&lt;/em&gt;.&lt;br /&gt;
+Oui, BÉPO est facilement utilisable/installable sur la plupart des plateformes. Sauf que, parce qu’elle n’est malheureusement pas standard, elle vient à poser des soucis simples.&lt;/p&gt;
+
+&lt;p&gt;L’exemple le plus parlant : il faut toujours reconfigurer ses contrôles, partout, tout le temps. Cela sonne peut-être un peu comme de la paresse, mais il y a des facteurs agaçants qui s’ajoutent au lot. Je pense au fait que pour 2 jeux vidéos sur 3, reconfigurer &lt;code&gt;Z&lt;/code&gt; &lt;code&gt;Q&lt;/code&gt; &lt;code&gt;S&lt;/code&gt; &lt;code&gt;D&lt;/code&gt; sur l’équivalent BÉPO &lt;code&gt;É&lt;/code&gt; &lt;code&gt;A&lt;/code&gt; &lt;code&gt;U&lt;/code&gt; &lt;code&gt;I&lt;/code&gt; est une horreur absolue, car le caractère spéciale &lt;code&gt;É&lt;/code&gt; n’a jamais été envisagé par quelconque développeur de jeux vidéos. Je pense aussi à des programmes, comme &lt;em&gt;vim&lt;/em&gt;, qui reposent sur un très grand nombre de raccourcis clavier qu’il faut un à un repenser.&lt;/p&gt;
+
+&lt;p&gt;Dans un registre encore un peu plus pratique, que je mentionne rapidement au début de ce billet, il y a cette situation qui survient de manière récurrente dans laquelle je dois faire avec un ordinateur ou un appareil qui n’est pas le mien. Là, il faut utiliser de l’AZERTY. Car non, je n’ai pas toujours une clef USB BÉPO sur moi. Et dans ces multiples cas où l’AZERTY est nécessaire, c’est un peu la panique à bord. Je n’y suis plus habitué, je m’y perds, je cherche les touches, … BÉPO est si différente que l’apprendre m’aura complètement dépaysé et fait oublier ce que la majorité des gens utilise.&lt;/p&gt;
+
+&lt;p&gt;Tout cela, c’est sûr, j’aurais dû m’y attendre en adoptant une disposition peu répandue et qui n’est pas reconnue comme un standard.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;et-maintenant-&quot;&gt;Et maintenant ?&lt;/h2&gt;
+&lt;p&gt;Si la décision de revenir à une disposition de clavier standard, utilisée et surtout &lt;em&gt;pensée&lt;/em&gt; par tous, me titille, j’ai le réflexe de la renvoyer aussitôt contre un mur.&lt;br /&gt;
+Ceci pour deux raisons intimement liées : &lt;code&gt;(1)&lt;/code&gt; revenir à une disposition de type AZERTY serait un pas en arrière au niveau ergonomique et pour l’écriture du français ; &lt;code&gt;(2)&lt;/code&gt; les alternatives manquent.&lt;/p&gt;
+
+&lt;p&gt;En fait, je pense que j’aimerais bien essayer une version un poil modifiée du QWERTY/AZERTY connu de tous, qui serait alors adaptée au français.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://fabi1cazenave.github.io/qwerty-lafayette/&quot;&gt;Oh wait&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://kazhack.org/&quot;&gt;kazé&lt;/a&gt; nous a pondu &lt;strong&gt;Qwerty-Lafayette&lt;/strong&gt;, une adaptation du Qwerty-US pour les francophones. Certes ce serait un pas en arrière niveau fluidité et ergonomie, mais ce serait un retour vers un standard pour se faciliter un poil la vie. Rien ne coûte d’essayer.&lt;/p&gt;
+
+&lt;p&gt;J’appelle aux avis et aux conseils. J’avoue ne pas cesser d’y réfléchir (Bon ce n’est pas bien grave non plus, hin).&lt;/p&gt;
+</description>
+				<pubDate>Thu, 26 Feb 2015 05:32:00 +0530</pubDate>
+				<link>http://schoewilliam.fr/2015/02/26/bepo-vaut-elle-toujours-le-coup.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2015/02/26/bepo-vaut-elle-toujours-le-coup.html</guid>
+			</item>
+		
+			<item>
+				<title>The Aether soundtrack, un album sous licence libre.</title>
+				     
+                    <description>&lt;p&gt;&lt;em&gt;Un peu de repos ? J’ai à vous proposer un peu de musique, qui en plus d’avoir l’avantage d’être sous licence libre, peut aider à se détendre ou à s’apaiser.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;L’album, &lt;strong&gt;&lt;em&gt;The Aether soundtrack&lt;/em&gt;&lt;/strong&gt;, a été composé par &lt;em&gt;Emile van Krieken&lt;/em&gt;, pour l’&lt;em&gt;&lt;a href=&quot;http://www.aetherii.com/&quot;&gt;Aether II&lt;/a&gt;&lt;/em&gt;, un célèbre mod pour Minecraft qui ajoute au monde une nouvelle dimension : l’Aether. Pour être bref là-dessus, cette dimension s’oppose à celle du Nether et est aussi riche en magie qu’en dangers.&lt;br /&gt;
+Sans trop de fioritures, Emile van Krieken compose ici une musique certes douce mais qui se réserve tout de même des moments d’ascension en intensivité. Elle cadre ainsi autant les balades paisibles et magiques du joueur, que ses aventures nocturnes dans un monde soudain plus dangereux dans l’obscurité.&lt;/p&gt;
+
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;http://bandcamp.com/EmbeddedPlayer/album=1979777228/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/&quot; seamless=&quot;&quot;&gt;&lt;a href=&quot;http://music.emilevankrieken.com/album/the-aether-soundtrack-music&quot;&gt;The Aether soundtrack music by Emile van Krieken&lt;/a&gt; &lt;/iframe&gt;
+
+&lt;p&gt;Je l’écoute personnellement lorsque je travaille, ou lorsque j’écris. C’est une musique de fond qui sait se faire discrète tout en gardant une mélodie singulière qui l’aide à ne pas se faire oublier.&lt;/p&gt;
+
+&lt;p&gt;L’album est disponible sous licence &lt;em&gt;Creative Commons Attribution-NonCommercial 3.0&lt;/em&gt;, et son auteur &lt;a href=&quot;http://music.emilevankrieken.com/album/the-aether-soundtrack-music&quot;&gt;le met à disposition à prix libre&lt;/a&gt;, vous permettant ainsi, si vous le désirez, de faire un don pour sa composition.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 18 Feb 2015 15:30:00 +0530</pubDate>
+				<link>http://schoewilliam.fr/2015/02/18/emile-van-krieken.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2015/02/18/emile-van-krieken.html</guid>
+			</item>
+		
+			<item>
+				<title>Sélection d&#39;applications pour Firefox OS #2</title>
+				     
+                    <description>&lt;p&gt;&lt;em&gt;Parce que je trouve moi-même ce genre de billets fort pratiques, je réitère l’exercice qui &lt;a href=&quot;/2014/05/14/liste-d-applications-pour-firefox-os.html&quot;&gt;avait déjà pas mal plu&lt;/a&gt; d’une sélection personnelle d’applications pour Firefox OS. Je les ai pour la plupart utilisées, ou les ai simplement croisées et testées. Voici donc celles qui méritent selon-moi d’être partagées.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Elles sont ci-dessous groupées dans ces catégories et dans cet ordre: &lt;em&gt;Jeux, Musique &amp;amp; Divertissement, Utilitaires, Productives&lt;/em&gt;, et &lt;em&gt;Misc&lt;/em&gt;.&lt;br /&gt;
+Si je publie dans quelques temps une nouvelle sélection, je tâcherai de garder ce même tri pour une bonne homogénéité, même s’il est possible que je les ajuste en fonction des applications que j’aurai à présenter.&lt;/p&gt;
+
+&lt;p&gt;Petit sommaire :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#jeux&quot;&gt;Jeux&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#musiqueetdivertissement&quot;&gt;Musique et divertissement&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#utilitaires&quot;&gt;Utilitaires&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#productives&quot;&gt;Productives&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#misc&quot;&gt;Misc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;jeux&quot;&gt;Jeux&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/lemmings&quot;&gt;Lemmings&lt;/a&gt;&lt;/strong&gt; — Oh que oui, les seuls et les vrais. C’est un port extrêmement réussi du jeu à succès retro. L’interface de ce port rend le jeu parfaitement jouable même du bout des doigts sur un écran tactile. Oh et même la bande-son est au rendez-vous.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/lemmings2.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/lemmings2.png&quot; alt=&quot;Niveau 4 des Lemmings sur Firefox OS&quot; class=&quot;align center&quot; style=&quot;width:600px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/gameaboutsquares&quot;&gt;Game about Squares&lt;/a&gt;&lt;/strong&gt; — Des carrés fléchés, des points, et c’est à peu près tout, si ce n’est une gameplay qui garantit une petite dose de casse-tête. Le but est, dans chaque niveau, de faire rejoindre un couple de carré et de rond de même couleur. Pas si simple que ça en a l’air.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/gameaboutsquares.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/gameaboutsquares.png&quot; alt=&quot;Game about Squares&quot; class=&quot;align center&quot; style=&quot;width:600px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;musique-et-divertissement&quot;&gt;Musique et Divertissement&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/foxcasts&quot;&gt;Foxcasts&lt;/a&gt;&lt;/strong&gt; — Je ne suis pas un très gros consommateur de Podcasts. Mais il y en a quelques uns auxquels je suis très habitué. Cette application est parfaite autant pour un petit consommateur comme moi, comme pour un grand assidu de podcasts. Elle inclut la découverte, le téléchargement pour l’écoute hors-ligne, l’écoute en streaming, et son interface est très claire et bien conçue.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/foxcasts4.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/foxcasts4.png&quot; alt=&quot;Vue du lecteur&quot; class=&quot;align 
+center&quot; style=&quot;max-width:32.2%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/rdio&quot;&gt;Rdio&lt;/a&gt;&lt;/strong&gt; – J’utilise depuis peu le service de musique Rdio. Je ne m’étendrai pas sur les avantages d’un tel service ni sur mon choix (ce serait peut-être le sujet d’un autre billet). Mais en tout cas, celui-ci contrairement aux autres existant dispose d’un avantage de poids : il a une application officielle disponible sur le Firefox Marketplace ! Malgré quelques bugs peu gênants, elle est à l’image du service lui-même : élégant, simple mais très fonctionnel.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/rdio.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/rdio.png&quot; alt=&quot;Capture d&#39;un morceau de ma collection musicale sur Rdio&quot; class=&quot;align inline&quot; style=&quot;max-width:32.2%&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/images/openwebapps/rdio2.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/rdio2.png&quot; alt=&quot;Capture du menu de Rdio&quot; class=&quot;align inline&quot; style=&quot;max-width:32.2%&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/images/openwebapps/rdio3.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/rdio3.png&quot; alt=&quot;Lecteur de Rdio&quot; class=&quot;align inline&quot; style=&quot;max-width:32.2%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/ebook/&quot;&gt;eBook&lt;/a&gt;&lt;/strong&gt; — Celle-ci fait partie de celles que je n’ai que testées. Mais cela n’est que parce que lire sur mon téléphone ne me tente pas tant. L’application est toutefois particulièrement jolie, et rend la lecture et la découverte d’ebooks agréable. À essayer donc&lt;/p&gt;
+
+&lt;h2 id=&quot;utilitaires&quot;&gt;Utilitaires&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/passwordmaker&quot;&gt;PasswordMaker&lt;/a&gt;&lt;/strong&gt; — J’ai la vieille habitude de vouloir me créer des mots de passe tordus et uniques pour chaque service sur le web. Cette application répond parfaitement à ce besoin et rend cela très simple. Et à vrai dire, elle m’est devenue indispensable. Extrêmement pratique. La gestion de différents profils est parfaite, ainsi que le sont les paramètres de chiffrement. Je vous la recommande très chaleureusement.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/passwordmaker1.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/passwordmaker1.png&quot; alt=&quot;Capture d&#39;un morceau de ma collection musicale sur Rdio&quot; class=&quot;align inline&quot; style=&quot;max-width:32.2%&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/images/openwebapps/passwordmaker2.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/passwordmaker2.png&quot; alt=&quot;Capture du menu de Rdio&quot; class=&quot;align inline&quot; style=&quot;max-width:32.2%&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/images/openwebapps/passwordmaker3.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/passwordmaker3.png&quot; alt=&quot;Lecteur de Rdio&quot; class=&quot;align inline&quot; style=&quot;max-width:32.2%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/battery-2&quot;&gt;Battery+&lt;/a&gt;&lt;/strong&gt; — Fort utile pour avoir un œil sur l’utilisation de sa batterie. Sa fonction qui m’est le plus pratique est son estimation du temps d’autonomie restante — de manière globale, ou par type d’activité.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/files&quot;&gt;Fichiers&lt;/a&gt;&lt;/strong&gt; – &lt;strong&gt;Le&lt;/strong&gt; gestionnaire des fichiers, selon moi, à avoir pour son téléphone sous Firefox OS. Il peut également ouvrir lui-même un certain nombre de formats de fichiers. Son interface est conçue pour très bien s’intégrer au reste de l’OS, et est ainsi plutôt réussie.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/fichiers.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/fichiers.png&quot; alt=&quot;Mon dossier Vidéos&quot; class=&quot;align center&quot; style=&quot;width:600px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;productives&quot;&gt;Productives&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/firetext&quot;&gt;Firetext&lt;/a&gt;&lt;/strong&gt; — Un traitement de texte de poche idéal. Si je m’en sers pour prendre quelques notes ci et là, il est tout équipé pour réaliser quelques documents plus complexes. Je le suivrai de près pour voir ce qu’il deviendra lorsque Firefox OS équipera des appareils à de plus grands écrans.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/firetext.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/firetext.png&quot; alt=&quot;Firetext&quot; class=&quot;align center&quot; style=&quot;width:600px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/awesometasks&quot;&gt;AwesomeTasks&lt;/a&gt;&lt;/strong&gt; — Une applications de &lt;em&gt;listes et de tâches&lt;/em&gt; particulièrement originale : son interface est entièrement basée sur les gestes. Son utilisation est juste &lt;em&gt;un vrai régal&lt;/em&gt;. Elle a été écrite par un ami reviewer du Firefox Marketplace (Hey Giovanny!) en tant qu’expérimentation, et n’est donc pas parfaite. Mais elle est tout à fait utilisable pour tous les jours, je vous la recommande donc.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/awesometasks1.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/awesometasks1.png&quot; alt=&quot;On marque une tâche comme lue en la faisant glisser vers la droite&quot; class=&quot;align inline&quot; style=&quot;max-width:32.2%&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/images/openwebapps/awesometasks2.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/awesometasks2.png&quot; alt=&quot;On crée une nouvelle tache en tirant vers le bas&quot; class=&quot;align inline&quot; style=&quot;max-width:32.2%&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/images/openwebapps/awesometasks3.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/awesometasks3.png&quot; alt=&quot;En tirant encore davantage vers le bas, on revient vers la liste de toutes les listes.&quot; class=&quot;align inline&quot; style=&quot;max-width:32.2%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;misc&quot;&gt;Misc&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/archwiki-viewer&quot;&gt;ArchWiki Viewer&lt;/a&gt;&lt;/strong&gt; — Comme son nom l’indique, elle permet de naviguer dans le wiki très riche d’&lt;a href=&quot;http://archlinux.org&quot;&gt;Arch linux&lt;/a&gt;. Elle a des petites fonctionnalités très sympathiques comme la possibilité de le télécharger entièrement ou partiellement pour une consultation hors-ligne. De quoi dépanner en cas de réel problème avec sa distribution.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/archwiki.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/archwiki.png&quot; alt=&quot;ArchWiki Viewer&quot; class=&quot;align center&quot; style=&quot;max-width:32.2%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/spendtoday&quot;&gt;SpendToday&lt;/a&gt;&lt;/strong&gt; — Une app de gestion de budget. Elle se distingue dans sa faculté de &lt;em&gt;conseil&lt;/em&gt;. Par exemple, pour chaque nouveau jour qui s’approche de la fin du mois, elle affichera un budget disponible plus faible afin de prévenir toute dépense qui serait pas très raisonnable. Je m’en sers de temps à autre pour mon budget loisirs, notamment.&lt;/p&gt;
+
+&lt;p&gt;C’est à peu près tout pour cette fois !&lt;br /&gt;
+À voir aussi : &lt;a href=&quot;/2014/05/14/liste-d-applications-pour-firefox-os.html&quot;&gt;ma précédente sélection d’applications pour Firefox OS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Réaliser ce type de &lt;em&gt;curation&lt;/em&gt; permet de réaliser un tri personnel mais surtout, grâce au blog à oreille, de partager quelques belles réalisations du web.&lt;br /&gt;
+Je rappelle enfin que je contribue de manière très régulière au Firefox Marketplace, n’hésitez donc pas à poser vos questions, ou à venir discuter sur IRC : &lt;code&gt;#app-reviewers&lt;/code&gt; @ &lt;code&gt;irc.mozilla.org&lt;/code&gt;. Je répondrai volontiers :-).&lt;/p&gt;
+</description>
+				<pubDate>Sat, 14 Feb 2015 11:02:00 +0530</pubDate>
+				<link>http://schoewilliam.fr/2015/02/14/applications-firefox-os.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2015/02/14/applications-firefox-os.html</guid>
+			</item>
+		
+			<item>
+				<title>Petites de mes nouvelles #5 : simple remaniement.</title>
+				     
+                    <description>&lt;p&gt;&lt;em&gt;(TL;DR) En bref: réorganisation du carnet. Cela inclut, au-delà de l’apparence, des billets chroniques réguliers et une ligne plus stable pour m’exprimer librement sur mon petit espace.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Ce carnet représente à la fois un moyen de communiquer sur mes projets, mon activité sur les réseaux et dans la vie d’une manière plus large, mais aussi de m’exprimer sur ce qui me tient à cœur, et de publier des écrits de fiction — que j’affectionne beaucoup même s’ils ne se font qu’occasionnels.&lt;/p&gt;
+
+&lt;p&gt;Puisque les objectifs de cet espace sont aussi multiples, et parce que je voudrais qu’il vive le plus longtemps possible, il me faut le penser afin de parvenir à les remplir.&lt;br /&gt;
+Concrètement, cela implique que je vais désormais me jouer à l’exercice du billet &lt;em&gt;chronique régulier&lt;/em&gt;. Chacun ayant son but, strict comme libre. J’en compte pour l’instant trois. L’idée est d’avoir ainsi un nouveau billet pour chaque type, au moins mensuellement.&lt;/p&gt;
+
+&lt;p&gt;Voici donc ceux qui sont prévus de manière régulière, et déjà prêts à arriver prochainement :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;l’&lt;strong&gt;&lt;em&gt;Annexe de Pensée&lt;/em&gt;&lt;/strong&gt;. D’un nom tiré de &lt;a href=&quot;/2013/11/17/annexe-de-pensee.html&quot;&gt;l’une de mes déjà vieilles humeurs&lt;/a&gt;, le but y sera d’évoquer une trouvaille créatrice, une pensée courte du quotidien, ou pourquoi pas un coup de cœur qui vaudrait une mention.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;En liens&lt;/em&gt;&lt;/strong&gt;. Un type de billet court mais d’un format que j’apprécie beaucoup en général. C’est une &lt;em&gt;sélection de liens&lt;/em&gt; commentée et discutée par mes soins. En espérant provoquer discussion et échanges autour de ceux-ci.&lt;/li&gt;
+  &lt;li&gt;le retour d’&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;/archive/aufilduretour.html&quot;&gt;Au Fil du retour&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;. J’avoue avoir mis en pause de ce projet d’écrit de fiction. Toutefois j’y pensais souvent et très régulièrement. Et parce que je veux et je dois le terminer, sa suite paraîtra très prochainement.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ça, c’est ce qui est prévu au moment de l’écriture de ces lignes.&lt;br /&gt;
+Mais évidemment cela n’inclut pas les billets que j’ai l’habitude de publier à l’improviste, en fonction de mes activités.&lt;/p&gt;
+
+&lt;p&gt;À noter que le site est désormais en anglais, pour ce qui est de sa navigation etc. Toutefois je vais continuer à publier majoritairement en français. Je tenterai d’organiser proprement le flux des billets afin qu’il soit simple de le filter pour n’afficher que les billets en une certaine langue, ou d’une certaine rubrique.&lt;/p&gt;
+
+&lt;p&gt;Du côté pratique, j’ai &lt;strong&gt;remis en place les commentaires&lt;/strong&gt;. Je ne veux plus me passer de conversation sous mes billets. J’essaierai donc d’inviter à l’interaction dans le futur.&lt;/p&gt;
+
+&lt;p&gt;Tout cela me tient à cœur, si vous avez donc des suggestions ou des pensées à me confier, n’attendez pas une seconde de plus pour le faire :-).&lt;/p&gt;
+</description>
+				<pubDate>Mon, 09 Feb 2015  +0530</pubDate>
+				<link>http://schoewilliam.fr/2015/02/09/petites-nouvelles-5.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2015/02/09/petites-nouvelles-5.html</guid>
+			</item>
+		
+			<item>
+				<title>Du climat qui règne en France…</title>
+				     
+                    <description>&lt;p&gt;&lt;em&gt;… semble ressortir une dérive politique qui tend vers l’autoritarisme, à coups de mesures sécuritaires.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;C’est un message qui m’a tout d’abord été inspiré par Patrick Béja dans &lt;a href=&quot;http://frenchspin.fr/2015/01/le-rdv-tech-150-ces-2015/&quot;&gt;son émission &lt;em&gt;Le Rendez-vous Tech&lt;/em&gt;&lt;/a&gt;, peu après l’événement de Charlie Hebdo. Un message si simple qu’il semble presque embarassant pour moi comme pour chacun de le rappeler et de le partager.&lt;br /&gt;
+Un message qui appelle à la prudence, et surtout à la raison.
+Il est extrêmement important pour chacun de nous de prendre du recul, et d’avoir une vision critique de ce qu’il nous arrive.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Pour entrer dans le détail de ma pensée, je crains une dérive de la politique de l’État français vers un autoritarisme qui serait très populairement soutenu, et donc imparable.
+Pour me résumer en quelques points…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Non, il n’est pas acceptable que &lt;a href=&quot;http://www.lemonde.fr/pixels/article/2015/01/13/patriot-act-a-la-francaise-il-est-important-de-garder-la-tete-froide_4555146_4408996.html&quot;&gt;certains de nos élus envisagent de soutenir des lois liberticides&lt;/a&gt; sous couvert d’une &lt;em&gt;situation exceptionnelle&lt;/em&gt;,&lt;/li&gt;
+  &lt;li&gt;Non, il n’est pas acceptable que &lt;a href=&quot;http://www.nextinpact.com/news/92852-la-france-veut-bien-etendre-blocage-sites-sans-juge.htm&quot;&gt;l’on veuille bloquer des sites sans juge&lt;/a&gt; sous couvert d’agir pour notre &lt;em&gt;sécurité&lt;/em&gt;,&lt;/li&gt;
+  &lt;li&gt;Non, il n’est pas acceptable que &lt;a href=&quot;http://www.nextinpact.com/news/91741-loi-sur-renseignement-big-brother-aux-portes-du-net.htm&quot;&gt;l’actuelle majorité propose un accroissement conséquent de la surveillance&lt;/a&gt; et du renseignement, et porte ainsi atteinte à plusieurs de nos libertés, individuelles (&lt;em&gt;la vie privée&lt;/em&gt;) et collectives (&lt;em&gt;communiquer&lt;/em&gt;).&lt;/li&gt;
+  &lt;li&gt;Non, il n’est pas acceptable que tout cela intervienne après que plus de &lt;a href=&quot;http://fr.wikipedia.org/wiki/Manifestations_des_10_et_11_janvier_2015&quot;&gt;4 millions de personnes aient manifesté le 11 janvier&lt;/a&gt; en vertu de la liberté d’expression et de sa défense inconditionnelle.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Oui&lt;/em&gt;, il faut prendre des mesures, et agir afin de conserver une situation relative de paix. Mais il est pour moi de l’ordre d’un autoritarisme que de vouloir réguler autant d’objets qui soient relatifs à l’expression, à la communication, et à la vie privée.&lt;br /&gt;
+Aussi simple que cela puisse être dit, sous couvert de défendre la liberté d’expression, on risque de la restreindre.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Bien sûr&lt;/em&gt;, la question d’une balance idéale entre &lt;em&gt;liberté&lt;/em&gt; et &lt;em&gt;sécurité&lt;/em&gt; est épineuse et sujette à débat. Mais il est essentiel de garder à l’esprit que cette question doit rester présente dans le débat.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;En annexe, je vous renvoie vers une infographie de la Quadrature du Net intitulée « &lt;a href=&quot;/images/stop-autoritarisme.png&quot;&gt;stop-autoritarisme&lt;/a&gt; », qui parodie la campagne du gouvernement « &lt;a href=&quot;http://www.stop-djihadisme.gouv.fr/decrypter.html&quot;&gt;stop-djihadisme&lt;/a&gt; ».&lt;/em&gt;&lt;/p&gt;
+</description>
+				<pubDate>Sun, 01 Feb 2015  +0530</pubDate>
+				<link>http://schoewilliam.fr/2015/02/01/du-climat-d%C3%A9testable-en-france.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2015/02/01/du-climat-d%C3%A9testable-en-france.html</guid>
+			</item>
+		
+			<item>
+				<title>Heureux de mon stylet.</title>
+				     
+                    <description>&lt;p&gt;Cela fait maintenant plusieurs mois que j’ai décidé de gérer ma vie et mes outils universitaires de manière totalement numérique. C’est plutôt simple après tout : une petite instance d’ownCloud pour synchroniser mes fichiers, et un calendrier/agenda, une syntaxe simpliste pour la prise de notes (markdown), et… une tablette. (Eh oui)&lt;/p&gt;
+
+&lt;p&gt;Lors des premiers jours, c’était évidemment mon ordinateur portable que j’amenais partout avec moi. Il ne quittait pas ma sacoche de tous les jours, et ce même si, sur mon bureau chez moi, j’avais une &lt;strong&gt;Nexus 10&lt;/strong&gt; que j’allumais de temps à autres pour y mettre à jour Firefox Nightly et aussitôt la poser pour l’oublier à nouveau pendant quelques jours (elle a une sacrée autonomie en veille).&lt;/p&gt;
+
+&lt;p&gt;En bref, par la suite, mon ordinateur portable me semblait de plus en plus encombrant. Et aussi, je ne m’en servais que  pour la moitié de mes cours (ceux les plus magistraux — avoir un ordinateur pour mes cours de langue me donnait comme l’impression de m’y aliener. Alors, j’ai voulu tenter de rendre cette tablette utile.&lt;/p&gt;
+
+&lt;h2 id=&quot;mais-comment-rendre-ma-tablette-utilisable-&quot;&gt;Mais comment rendre ma tablette utilisable ?&lt;/h2&gt;
+
+&lt;p&gt;Oui oui, c’est une vraie question que je me pose et dont la réponse irait facilement de soi.&lt;br /&gt;
+C’est un appareil qui cumule les bons points. Elle est légère, possède un très bel écran, réalise de belles performances graphiques, robuste. Sauf qu’il y a deux points qui, pour moi, l’avait éliminée d’office pour l’utiliser au quotidien dans ma vie universitaire (entre autres) :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;sa seule interface est un écran tactile,&lt;/li&gt;
+  &lt;li&gt;elle tourne sur Android.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;un-clavier---&quot;&gt;Un clavier … ? …&lt;/h3&gt;
+&lt;p&gt;Et c’est dans cet état d’esprit que &lt;strong&gt;ma première mesure pour arriver à l’utiliser au quotidien a été de lui acheter un clavier&lt;/strong&gt;. Et avec ça, je suis même allé jusqu’à acheter une souris. Aussi, je m’étais mis à la recherche de bons éditeurs de markdown pour Android.&lt;/p&gt;
+
+&lt;p&gt;Le résultat était mitigé. J’ai essayé deux claviers. Le premier était pratique et pouvait se clipser à la tablette — je gardais donc la portabilité de la Nexus 10 qui me plait tant. Sauf que ses touches étaient beaucoup trop petites et peu confortables. Quant au second, c’est un clavier de bureau connecté en bluetooth que j’ai fini par acheter en remplacement du premier – c’était juste détestable d’avoir à le faire entrer dans ma sacoche (et pourtant, ce n’est pas un bien gros clavier, bien au contraire).&lt;br /&gt;
+&lt;em&gt;Le problème est donc bien au niveau de l’interface et de sa praticité. Du côté de l’édition, et de la synchronisation, j’étais et je suis plutôt content.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;nope-un-stylet--&quot;&gt;… Nope. Un stylet… ? …&lt;/h3&gt;
+&lt;p&gt;En me baladant à la FNAC, sans même le rechercher, j’ai croisé un stylet, le Bamboo de Wacom. C’est un stylet simple, passif, il n’a rien de spécial si ce n’est d’intégrer un véritable stylo à bille à l’opposée de la pointe en silicone dont on se sert pour les écrans.&lt;/p&gt;
+
+&lt;p&gt;Il ne coutait pas si cher. Alors je l’ai essayé par simple curiosité. C’était plutôt amusant, de pouvoir dessiner en vectoriel, de pouvoir utiliser mon écriture manuscrite dans le monde numérique (ce que l’on fait assez rarement, il faut le dire).&lt;/p&gt;
+
+&lt;p&gt;J’ai fini par trouver de formidables applications de prise de notes pensées pour l’écriture manuscrite (mon choix s’est porté sur &lt;a href=&quot;http://www.inkredibleapp.com/&quot;&gt;&lt;strong&gt;Inkredible&lt;/strong&gt;&lt;/a&gt;, duquel j’exporte mes écrits en pdf, avant de les synchroniser).&lt;br /&gt;
+(&lt;em&gt;L’expérience de l’écriture avec un stylet est très dépendante du logiciel et de l’application avec lesquels on l’utilise. Elle peut ainsi être très bonne comme très mauvaise en fonction de cela — c’est pourquoi je vous conseille de ne pas hésiter à en tester plusieurs avant de vous faire un avis.&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/stylet2.jpg&quot;&gt;&lt;img src=&quot;/images/stylet2.jpg&quot; alt=&quot;**Photo de la tablette et de l&#39;application Inkredible**&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;C’est peut-être étrange, mais le choix du stylet comme interface essentielle d’écriture et de saisie m’a non seulement redonné la sensation d’avoir le contrôle total sur ma feuille blanche, depuis la simple pointe de mon stylet, il m’a aussi permis de renouveler et de prolonger mon admiration pour le manuscrit. Et c’est bien pour cela que j’écris que ce pourrait être étrange ; car j’écris (comme la majorité d’entre nous) de moins en moins de ma main.&lt;/p&gt;
+
+&lt;h3 id=&quot;yup&quot;&gt;… Yup.&lt;/h3&gt;
+
+&lt;p&gt;Si je devais faire une toute petite liste des bons points que j’accorderais au stylet :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;carrément plus léger qu’un clavier,&lt;/li&gt;
+  &lt;li&gt;moins consommateur qu’un clavier (qui nécessite le bluetooth — sur Android),&lt;/li&gt;
+  &lt;li&gt;des utilisations créatrices infiniment variées (du dessin à la productivité, en passant par la calligraphie),&lt;/li&gt;
+  &lt;li&gt;vraiment léger (#2, parce que c’est important),&lt;/li&gt;
+  &lt;li&gt;écrire sur une tablette avec la même gestuelle que celle d’un cahier ou d’un bloc-notes m’a débarassé de cette impression de distance prise avec mon/mes interlocuteur(s).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Je ne pensais pas que j’aurais de quoi m’exprimer sur un &lt;em&gt;stylet&lt;/em&gt; un jour. Mais il est vrai, cet objet me plait.&lt;/p&gt;
+</description>
+				<pubDate>Sun, 18 Jan 2015  +0530</pubDate>
+				<link>http://schoewilliam.fr/2015/01/18/stylet.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2015/01/18/stylet.html</guid>
+			</item>
+		
+			<item>
+				<title>Développons pour le web, pas pour Chrome.</title>
+				     
+                    <description>&lt;p&gt;« &lt;em&gt;Choisissez Firefox maintenant, sinon plus tard vous n’aurez plus le choix&lt;/em&gt; », écrit Robert O’Callahan, développeur Mozillien, dans &lt;a href=&quot;http://robert.ocallahan.org/2014/08/choose-firefox-now-or-later-you-wont.html&quot;&gt;un billet&lt;/a&gt; qui tente de sensibiliser à propos de l’inquiétante domination de Chrome, toujours plus croissante.&lt;/p&gt;
+
+&lt;p&gt;Il est intéressant de constater que le billet s’adresse essentiellement aux utilisateurs du web, qu’ils soient indécis ou non. Et en effet, il est important de s’adresser à ces membres clefs. Mais il y a une autre part du camembert qui compte : ceux qui développent pour le web.&lt;br /&gt;
+Je suis sûr, vous qui me lisez et qui n’utilisez pas Chrome, que vous avez déjà rencontré plus d’un site web, plus d’une web app, qui sur son accueil vous intercepte et vous adresse de la sorte :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;« &lt;em&gt;Site web optimisé pour Chrome&lt;/em&gt;. »&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;« &lt;em&gt;Pour de meilleures performances, utilisez Google Chrome.&lt;/em&gt; »&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ou plus hallucinant encore :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;« &lt;em&gt;Mettez-vous à jour vers un navigateur moderne, Google Chrome, pour utiliser cette application&lt;/em&gt; ».&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ce dernier vous intime que même votre dernière version de Firefox, d’Opéra, ou que sais-je encore, n’est pas à la hauteur de ce contenu.&lt;br /&gt;
+Si on a de tels messages aujourd’hui, c’est parce que les développeurs sont tombés dans un travers hérité des années 2000 sous la domination d’Internet Explorer : on développe pour des navigateurs, au lieu de développer pour le web.&lt;br /&gt;
+Avec une telle façon de penser viennent plusieurs manies, comme celle de ne pas se soucier des standards et d’utiliser des propriétés CSS préfixées et uniquement supportées à l’échelle d’un ou deux navigateurs, ou plus largement celle d’utiliser des technologies expérimentales soutenues par un seul acteur du web. C’est en cela qu’une phrase que je répète beaucoup prend tout son sens :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;le web est la plateforme&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ce principe est important à prendre en compte, car il garantit que l’on considère les utilisateurs du web comme ceux que l’on désire servir.&lt;br /&gt;
+Et il est important de le rappeler : l’utilisateur du web décide et choisit d’accéder au web de la manière qui lui semble la meilleure. Et si ce choix, cette décision, se porte sur un navigateur qui est à jour au niveau des standards du web, alors il n’existe aucune raison valable pour lui interdire l’accès à votre contenu… À moins bien sûr que vous n’ayez jamais réellement visé de développer pour le web.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mon appel est simple. Amis développeurs, développons pour le web, pas pour un navigateur, afin qu’il reste libre, et accessible à tous&lt;/strong&gt;. Cela vaut autant pour votre intérêt que pour celui de tous les utilisateurs du web.&lt;/p&gt;
+
+&lt;p&gt;Mon billet aurait pu s’appeler « Developpons pour le web, pas pour &lt;em&gt;x&lt;/em&gt; navigateur », mais il s’avère que Chrome est en l’état dangereux compte tenu de sa part de marché. Un monopole n’est &lt;em&gt;jamais&lt;/em&gt; désirable lorsqu’il s’agit de garantir liberté, ouverture, et progrès. S’il vous plait, ne l’oubliez pas.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 12 Aug 2014  +0530</pubDate>
+				<link>http://schoewilliam.fr/2014/08/12/developpons-pour-le-web.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2014/08/12/developpons-pour-le-web.html</guid>
+			</item>
+		
+			<item>
+				<title>Petites de mes nouvelles #4 : vers Lyon !</title>
+				     
+                    <description>&lt;p&gt;&lt;em&gt;Durant ce mois d’août ainsi que celui de septembre prochain, &lt;strong&gt;je déménage&lt;/strong&gt;. Ciao à l’île de la Réunion de l’enfance et de l’adolescence. Je serai dès le 1er septembre prochain à Lyon. Pas mal de changements à prévoir donc.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Cela signifie que, concernant mon autohébergement, tout sera à recommencer. Je pense à un serveur dédié notamment, mais je prendrai le temps d’y penser. En tout cas, avoir une machine en tant que serveur dans ma chambre n’est plus envisageable : ma seule connexion internet sera sûrement un réseau mobile, puisqu’il est hors de question de souscrire à celle du CROUS, &lt;a href=&quot;http://lagazette-blog.fr/informatique/monde-virtuel/la-liberte-du-net-dans-les-crous/&quot;&gt;filtrée&lt;/a&gt;, et &lt;a href=&quot;http://fspot.org/blog/2011/12/12/le-crous-de-lyon-fai-ou-pas/&quot;&gt;non protégée&lt;/a&gt; (je prendrai toutefois la peine de le constater moi-même).&lt;/p&gt;
+
+&lt;p&gt;Si mon train de vie sera complètement différent, il n’en sera rien de mes habitudes sur les internets. Ce que je prévois en revanche, c’est d’écrire bien davantage sur ce carnet. J’ai en tête beaucoup d’idées quant à d’éventuels sujets à traiter, ou quant à des &lt;a href=&quot;/carnet/aufilduretour&quot;&gt;fictions à continuer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pour l’instant, une petite pause s’impose, le temps que je me prépare, que je voyage, et qu’enfin je m’installe. En attendant, je traîne beaucoup sur diaspora* en ce moment (mon handle: &lt;a href=&quot;https://diaspora-fr.org/people/85b5201467685b01&quot;&gt;schoewilliam@diaspora-fr.org&lt;/a&gt;), et je reste aussi beaucoup actif sur irc (&lt;em&gt;schoewilliam&lt;/em&gt; sur irc.mozilla.org, et &lt;em&gt;schoewill&lt;/em&gt; sur Freenode), si l’idée vous vient de vouloir m’aborder et de discuter :).&lt;/p&gt;
+
+&lt;p&gt;À très vite !&lt;/p&gt;
+</description>
+				<pubDate>Sat, 09 Aug 2014  +0530</pubDate>
+				<link>http://schoewilliam.fr/2014/08/09/petites-nouvelles-4.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2014/08/09/petites-nouvelles-4.html</guid>
+			</item>
+		
+			<item>
+				<title>Mozilla et les DRM</title>
+				     
+                    <description>&lt;p&gt;&lt;em&gt;Je vois et je lis beaucoup de billets, de messages, de cris et également d’applaudissements quant à &lt;a href=&quot;https://hacks.mozilla.org/2014/05/reconciling-mozillas-mission-and-w3c-eme/&quot;&gt;cette affaire&lt;/a&gt;. J’ai mis plusieurs dizaines d’heures avant de pouvoir me forger un véritable avis.&lt;br /&gt;
+Tout compte fait, je vous propose ci-dessous une traduction d’&lt;a href=&quot;http://leomca.github.io/2014/05/15/Mozilla-and-DRM.html&quot;&gt;un billet&lt;/a&gt; de &lt;a href=&quot;http://leomca.github.io/&quot;&gt;Leo McArdle&lt;/a&gt; sur le sujet.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;La réaction de la plupart des gens quant à la débacle &lt;em&gt;Mozilla et les DRM&lt;/em&gt; me donne envie de me cogner fermement, encore et encore, la tête contre la surface de mon bureau — ce qui n’est pas une très bonne idée quand on est submergé par les examens. J’expliquerai pourquoi dans une minute, mais d’abord, si vous ne l’avez pas déjà fait, vous devriez &lt;em&gt;vraiment&lt;/em&gt; prendre un instant et lire les articles &lt;a href=&quot;https://blog.mozilla.org/blog/2014/05/14/drm-and-the-challenge-of-serving-users/&quot;&gt;de Mitchell [Baker] sur le blog de Mozilla&lt;/a&gt;, et &lt;a href=&quot;https://hacks.mozilla.org/2014/05/reconciling-mozillas-mission-and-w3c-eme/&quot;&gt;d’Andreas [Gal] sur Mozilla Hacks&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ça y est ? Bien. Maintenant allons-y pour les raisons qui me poussent à vouloir me cogner moi-même.&lt;/p&gt;
+
+&lt;h3 id=&quot;les-gens-qui-ne-lisent-pas-ou-qui-ne-prennent-mme-pas-la-peine-de-lire&quot;&gt;1. Les gens qui ne lisent pas (ou qui ne prennent même pas la peine de lire)&lt;/h3&gt;
+
+&lt;p&gt;La majorité des critiques vient de ceux qui ne se sont même pas embêtés à lire et comprendre ce que Mozilla a écrit sur le sujet. S’ils l’avaient fait, nous n’aurions aucune plainte concernant Mozilla qui forcerait les utilisateurs à utiliser les DRM, qui intégrerait du code propriétaire, ou qui « renoncerait » à la liberté des utilisateurs et leurs droits.&lt;/p&gt;
+
+&lt;p&gt;Comme vous le savez après avoir lu ces deux articles, tout ce qui va se passer, c’est que le CDM d’Adobe (&lt;em&gt;Content Decryption Module, n.d.t.&lt;/em&gt;) va être implémenté à la manière d’un plugin particulier, optionnel, et contrôlé.&lt;/p&gt;
+
+&lt;p&gt;Je dirais que ce n’est pas bien différent de Flash, mais ça le sera. Ce sera plus sécurisé, et vraisemblablement beaucoup moins bugué (étant une « fonctionnalité » de Firefox). Une fois que Firefox aura implémenté l’EME, il n’y aura vraiment plus de raison pour que Flash ou Silverlight continuent d’exister. Bien sûr, cette manière de faire craint. Mais je pense que Flash craint encore plus.&lt;/p&gt;
+
+&lt;p&gt;Quant à Mozilla qui « renoncerait » : Mozilla ne peut être influente, que si elle a de l’influence. La source principale de l’influence que peut exercer Mozilla est le nombre d’utilisateur de Firefox, qui n’est actuellement pas très élevé. Ne pas implémenter EME n’y aidera en rien. Comme d’autres l’ont dit, ce n’est pas sur cet obstacle qu’il faut buter (&lt;em&gt;this is not the hill to die on, v.o.&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;Tout cela me mène à mon second point :&lt;/p&gt;
+
+&lt;h3 id=&quot;les-gens-qui-utilisent-chrome&quot;&gt;2. Les gens qui utilisent Chrome&lt;/h3&gt;
+
+&lt;p&gt;L’un des meilleurs tweets que j’ai pu trouvé sur le sujet était celui de quelqu’un menaçant de passer à Google Chrome à cause de cela. Je pense que l’ironie est évidente ici.&lt;/p&gt;
+
+&lt;p&gt;Et encore, ce qui m’étonne le plus n’est pas tant ces gens qui menaçent de passer de Firefox à Chrome, mais plutôt ceux qui utilisent déjà Chrome et qui veulent que Mozilla protège leurs droits.&lt;/p&gt;
+
+&lt;p&gt;Google est une compagnie à but lucratif qui existe pour exploiter les données des utilisateurs. Google a collaboré avec la NSA. Google, avec Microsoft et Netflix a aidé à l’adoption de l’EME. Pourquoi, alors, voudriez-vous donner votre soutien à Google en utilisant Chrome ?&lt;/p&gt;
+
+&lt;p&gt;La seule chose, et la plus simple, que vous puissiez faire pour soutenir Mozilla est d’utiliser Firefox. Cela donne à Mozilla l’influence dont elle a besoin.&lt;/p&gt;
+
+&lt;h3 id=&quot;les-gens-qui-pensent-que-mozilla-peut--elle-seule--changer-lindustrie-&quot;&gt;3. Les gens qui pensent que Mozilla peut à elle seule « changer l’industrie »&lt;/h3&gt;
+
+&lt;p&gt;Je déteste les DRM autant que vous et je pense que les droits d’auteur sont fondamentalement obsolètes — c’est pourquoi je suis un membre du Parti Pirate, c’est pourquoi je donne à l’ORG (&lt;em&gt;&lt;a href=&quot;http://openrightsgroup.org/&quot;&gt;the Open Rights Group&lt;/a&gt;, une organisation à but non-lucratif basé au Royaume-Uni, n.d.t.&lt;/em&gt;) et à l’EFF, et c’est ainsi que je m’attends à du vrai changement.&lt;/p&gt;
+
+&lt;p&gt;Mozilla ne peut changer l’industrie qu’avec le soutien des utilisateurs. Et les utilisateurs se fichent des DRM, ils veulent des vidéos en ligne qui fonctionnent. On l’a clairement constaté avec WebM et H.264.&lt;/p&gt;
+
+&lt;p&gt;Il y a du pain sur la planche, mais ce ne sera pas possible si Mozilla perd de son influence, et ça ne pourra se faire qu’avec le &lt;em&gt;soutien&lt;/em&gt; d’autres organisations.&lt;/p&gt;
+
+&lt;p&gt;Les utilisateurs veulent les DRM. Alors nous devrions leur donner les DRM. Ça ne veut pas dire que Mozilla soutient les DRM. Et ça ne veut pas dire que Mozilla ne peut éduquer les utilisateurs sur ce que signifient les DRM (et il y a de &lt;a href=&quot;https://twitter.com/remixmanifesto/status/466664657814818818&quot;&gt;très bons signes qui montrent que cela fasse bientôt partie de Webmaker&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;h3 id=&quot;en-conclusion&quot;&gt;En conclusion&lt;/h3&gt;
+
+&lt;p&gt;Ne soyez pas déçus de Mozilla.&lt;/p&gt;
+
+&lt;p&gt;Soyez déçus de Google, Microsoft, et Apple pour l’avoir implémenté en premier, et pour avoir forcé la main à Mozilla.&lt;/p&gt;
+
+&lt;p&gt;Soyez déçus de Netflix et ses amis (ce qui inclut, de manière surprenante, la BBC !) qui soutiennent et poussent le support des DRM sur le web.&lt;/p&gt;
+
+&lt;p&gt;Soyez déçus de vos élus qui créent un environnement où il est potentiellement illégal de dire quoi que ce soit à propos des DRM.&lt;/p&gt;
+
+&lt;p&gt;Maintenant sortez, éduquez les utilisateurs à propos de ce que DRM peut bien signifier, et de pourquoi est-ce que c’est &lt;strong&gt;mauvais&lt;/strong&gt;. Utilisez Firefox, et donnez de votre &lt;a href=&quot;https://www.mozilla.org/en-US/contribute/&quot;&gt;temps&lt;/a&gt; ou de votre &lt;a href=&quot;https://sendto.mozilla.org/page/contribute/&quot;&gt;argent&lt;/a&gt; à Mozilla afin de lui fournir l’influence dont elle a besoin. Soutenez des organisations (&lt;a href=&quot;https://www.eff.org/&quot;&gt;EFF&lt;/a&gt;, &lt;a href=&quot;https://www.openrightsgroup.org/&quot;&gt;ORG&lt;/a&gt;, &lt;a href=&quot;https://www.fsf.org/&quot;&gt;FSF&lt;/a&gt;, &lt;a href=&quot;https://fsfe.org/&quot;&gt;FSFE&lt;/a&gt;) et les partis politiques qui représentent vos points de vue sur les DRM et la réforme du droit d’auteur.&lt;/p&gt;
+
+&lt;p&gt;Ce n’est en aucun cas la fin de la bataille contre les DRM et le droit d’auteur — ce n’est que le commencement.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 19 May 2014  +0530</pubDate>
+				<link>http://schoewilliam.fr/2014/05/19/mozilla-et-les-drm.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2014/05/19/mozilla-et-les-drm.html</guid>
+			</item>
+		
+			<item>
+				<title>À Sýna.</title>
+				     
+                    <description>&lt;p&gt;Mmh s’il fallait construire un ensemble de petits jouets qui puissent avoir la capacité de faire sourire tout enfant, je le ferais sans même établir de plans. Et d’ailleurs, il est rare qu’établir des plans soit une manière efficace de bout en bout. Oui, en effet, il faut des outils, et des matériaux, ou en bref, toutes sortes de matières pour rendre ces plans concrets et palpables. Mais le plan est ennuyant.&lt;br /&gt;
+Car, si je choisis de dépoussiérer la surface de mon bureau, j’espère secrètement qu’il le soit bientôt à nouveau, à l’improviste (&lt;em&gt;je le promets&lt;/em&gt;).&lt;br /&gt;
+En le plan de n’avoir aucun plan, la poussière est revenue, tout comme je l’espérais effectivement secrètement. Tandis que je la faisais voler auparavant, je l’invitai à prendre vie cette fois-ci.&lt;br /&gt;
+Les plans ont foiré, et c’est pour le mieux, car je me suis mis à aimer cela plus que jamais.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 15 May 2014  +0530</pubDate>
+				<link>http://schoewilliam.fr/2014/05/15/syna.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2014/05/15/syna.html</guid>
+			</item>
+		
+			<item>
+				<title>Sélection d&#39;applications pour Firefox OS #1</title>
+				     
+                    <description>&lt;blockquote&gt;
+  &lt;p&gt;« Parce qu’il n’y a pas de raison que les gusses de chez Google et leurs clients auxquels ils vendent mes données soient les seuls à savoir tout ce que j’ai pu installer sur mon téléphone pseudo-intelligent : voici ma sélection d’applications pour Android. »&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;— &lt;a href=&quot;http://postblue.info/liste-applications-android/&quot;&gt;Liste d’applications pour Android&lt;/a&gt;, Postblue.&lt;/p&gt;
+
+&lt;p&gt;Quant au chanceux que je suis, mon téléphone intelligent sous Firefox OS tire profit du &lt;a href=&quot;http://schoewilliam.fr/2014/05/03/apr%C3%A8s-quelques-open-web-apps-bilan-d-exp%C3%A9rience-.html&quot;&gt;web, la plus enthousiasmante des plateformes&lt;/a&gt;.&lt;br /&gt;
+Je vois chaque semaine passer un bon nombre d’applications sur le Firefox Marketplace, et beaucoup d’entre elles retiennent mon attention. Qu’il s’agisse d’une question de goût, de couleurs, de praticité ou d’utilité, … elles méritent davantage d’utilisateurs et de popularité.&lt;/p&gt;
+
+&lt;p&gt;Voici ma petite sélection d’applications pour Firefox OS.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;utiles&quot;&gt;Utiles&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/projector&quot;&gt;Projector&lt;/a&gt;. Application très fonctionnelle, pouvant servir à l’organisation ou la gestion d’un projet, ou pouvant être un bel agenda. Très agréable à l’œil, et très fonctionnelle, j’aurais du mal à lui reprocher quoi que ce soit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/projector.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/projector.png&quot; alt=&quot;Projector&quot; class=&quot;align center&quot; style=&quot;max-width:32.3%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/firetext&quot;&gt;Firetext&lt;/a&gt;. Éditer du texte sur Firefox OS. Yep.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/manana&quot;&gt;Manana&lt;/a&gt;. Sauvegarder des articles ou des pages vues sur le web éparse pour une consultation hors-ligne, dans un lecteur élégant, et sobre.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/fc&quot;&gt;F&amp;amp;C&lt;/a&gt;. La plus jolie des applications météo qu’il m’ait arrivé de croiser.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/fc.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/fc.png&quot; alt=&quot;f&amp;amp;C&quot; class=&quot;align center&quot; style=&quot;max-width:32.3%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/hexacolor&quot;&gt;Hexacolor&lt;/a&gt;. Obtenir et modifier des codes couleurs à la volée.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;messagerie-et-communications&quot;&gt;Messagerie et communications&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/loqui&quot;&gt;Loqui IM&lt;/a&gt;. Présentée comme une application de messagerie tout-en-un (comme la lessive), elle est quasiment parfaite pour du multicompte XMPP/&lt;em&gt;Jabber&lt;/em&gt;. Il lui 
+manquerait le support des conférences pour retirer mon « quasiment ».&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/loqui.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/loqui.png&quot; alt=&quot;Loqui IM&quot; class=&quot;align center&quot; style=&quot;max-width:32.3%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/movim&quot;&gt;Movim&lt;/a&gt;. Un accès fort pratique au pod &lt;a href=&quot;https://pod.movim.eu/&quot;&gt;pod.mov.im&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/diaspora&quot;&gt;diaspora*&lt;/a&gt;. Contrairement au précédent, et de manière inhérente au fonctionnement du réseau, cette application pour diaspora* permet à l’utilisateur de choisir sur quel pod il réside, et il s’y trouve alors redirigé.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/diaspora.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/diaspora.png&quot; alt=&quot;diaspora*&quot; class=&quot;align center&quot; style=&quot;max-width:32.3%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;jeux&quot;&gt;Jeux&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/ninjas-assault/&quot;&gt;Ninjas Assault&lt;/a&gt;. Équipé d’un nunchaku dans le style &lt;em&gt;retro&lt;/em&gt;, on y dégomme le moindre ninja qui ose descendre sur notre écran. Le rythme augmente très vite, et le score peut vite grimper !&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/ninjasassault.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/ninjasassault.png&quot; alt=&quot;Ninjas Assault&quot; class=&quot;align center&quot; style=&quot;max-width:32.3%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/esviji&quot;&gt;esviji&lt;/a&gt;. Jeu de chiffres et de logique simple, coloré, et original.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/drag-the-dots&quot;&gt;Drag the Dots&lt;/a&gt;. Glissez les nombres jumeaux afin de les réjoindre, et videz ainsi l’écran le plus vite possible !&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/dragthedots.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/dragthedots.png&quot; alt=&quot;Drag the Dots&quot; class=&quot;align center&quot; style=&quot;max-width:32.3%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/sliding-tommy&quot;&gt;Sliding Tommy&lt;/a&gt;. Glissez le bon vieux Tommy dans la grille, en faisant bien attention à ne pas le faire aller trop loin. Jeu de logique fort sympathique, avec une tendance au casse-tête.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/circle-tetris&quot;&gt;Circle Tetris&lt;/a&gt;. Reprise du fameux Tetris dans un plan circulaire.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;multimdia&quot;&gt;Multimédia&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/simplempc&quot;&gt;SimpleMPC&lt;/a&gt;. Un client simple et pratique pour MPD.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/foxympd&quot;&gt;FoxyMPD&lt;/a&gt;. Un autre client pour MPD, un poil plus fonctionnel (la gestion des playlists, et la possiblité de jouer un flux web en plus, notamment.)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/foxympd.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/foxympd.png&quot; alt=&quot;FoxyMPD&quot; class=&quot;align center&quot; style=&quot;max-width:32.3%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/radio-paradise/&quot;&gt;Radio Paradise&lt;/a&gt;. Une webradio musicale.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/openyoutube&quot;&gt;OpenYoutube&lt;/a&gt;. Un simple lecteur pour Youtube. Efficace et minimaliste, je lui trouve l’avantage d’afficher le lecteur original de Youtube (en HTML5, évidemment), et non les habituelles adaptations au mobile, qui ne permettent pas de configuration comme l’ajustement de qualité, ou les sous-titres.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/openyoutube.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/openyoutube.png&quot; alt=&quot;OpenYoutube&quot; class=&quot;align center&quot; style=&quot;max-width:32.3%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;procrastination&quot;&gt;Procrastination&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/reditr&quot;&gt;Reditr&lt;/a&gt;. Idéale pour naviguer sur Reddit !&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/reditr.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/reditr.png&quot; alt=&quot;Reditr&quot; class=&quot;align center&quot; style=&quot;max-width:32.3%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://marketplace.firefox.com/app/hackerweb&quot;&gt;HackerWeb&lt;/a&gt;. Flux des &lt;em&gt;Hacker News&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/hackerweb.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/hackerweb.png&quot; alt=&quot;HackerWeb&quot; class=&quot;align center&quot; style=&quot;max-width:32.3%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Je mettrai très certainement à jour cette liste au fil de mes découvertes. En attendant, les suggestions et les partages sont bienvenus !&lt;/p&gt;
+</description>
+				<pubDate>Wed, 14 May 2014  +0530</pubDate>
+				<link>http://schoewilliam.fr/2014/05/14/liste-d-applications-pour-firefox-os.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2014/05/14/liste-d-applications-pour-firefox-os.html</guid>
+			</item>
+		
+			<item>
+				<title>Quant aux open web apps, petit bilan d&#39;expérience.</title>
+				     
+                    <description>&lt;p&gt;« &lt;em&gt;Open web apps are essentially no different to standard websites or web apps. They are built using standard open web technologies (…) and can be accessed using a web browser. The main differences lie in their ability to be installed on devices and work offline, access to advanced APIs that allow interaction with device features such as camera, gyroscope and address book, (…). Generally, they provide users with an “app experience”, while still being based on open, cross platform technologies.&lt;/em&gt; »&lt;br /&gt;
+— &lt;a href=&quot;https://developer.mozilla.org/en-US/Apps/Quickstart&quot;&gt;Mozilla Developer Network, Quickstart&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Il s’agit de faire du &lt;a href=&quot;https://blog.mozilla.org/webdev/2012/09/14/apps-the-web-is-the-platform/&quot;&gt;web &lt;em&gt;la&lt;/em&gt; plateforme&lt;/a&gt;. Je suis à mon habitude curieux et fort enthousiaste, alors j’ai essayé.&lt;/p&gt;
+
+&lt;h3 id=&quot;schoses-exprience-dun-web-tout--fait-fonctionnel-hors-ligne&quot;&gt;Schoses, expérience d’un web tout à fait fonctionnel hors-ligne.&lt;/h3&gt;
+
+&lt;p&gt;Avec &lt;a href=&quot;http://schoses.schoewilliam.fr&quot;&gt;Schoses&lt;/a&gt;, petite application pour créer des listes plus ou moins sensées, j’ai touché au potentiel de petits moyens du web, tels que l’&lt;a href=&quot;https://developer.mozilla.org/en/docs/HTML/Using_the_application_cache&quot;&gt;&lt;em&gt;appcache&lt;/em&gt;&lt;/a&gt;, ou &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Storage#localStorage&quot;&gt;&lt;em&gt;localstorage&lt;/em&gt;&lt;/a&gt;. Grâce à eux, bien qu’hébergé sur un serveur distant, Schoses fonctionne entièrement hors-ligne, se met à jour de manière absolument silencieuse aussitôt une connexion disponible, et stocke ses données du côté client.&lt;br /&gt;
+Au-delà de cet aspect, c’était encore une fois une belle occasion de s’essayer à la création d’interfaces agréables et fluides (ce qui implique alors les transitions et les animations CSS, ou encore des notions improvisées d’ergonomie).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/schoses.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/schoses.png&quot; alt=&quot;Schoses running on a Geeksphone Peak&quot; class=&quot;align inline&quot; style=&quot;max-width:32.3%;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/images/openwebapps/schoses2.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/schoses2.png&quot; alt=&quot;Schoses running on a Geeksphone Peak&quot; class=&quot;align inline&quot; style=&quot;max-width:32.3%;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/images/openwebapps/schoses3.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/schoses3.png&quot; alt=&quot;Schoses running on a Geeksphone Peak&quot; class=&quot;align inline&quot; style=&quot;max-width:32.3%;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;schmusic-exprience-du-web-multimdia&quot;&gt;Schmusic, expérience du web multimédia.&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/schmusic.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/schmusic.png&quot; alt=&quot;Schmusic running on a Geeksphone Keon&quot; class=&quot;align right&quot; style=&quot;max-width:35%;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://music.schoewilliam.fr&quot;&gt;Schmusic&lt;/a&gt; répond à une problématique simple : comment écouter ma musique de n’importe où ? Quand on admet que &lt;em&gt;le web est la plateforme&lt;/em&gt;, la solution est évidente.&lt;br /&gt;
+Je passe le &lt;a href=&quot;/2013/08/02/music-schoewilliam-fr-résultat-dune-heure-d-ennui.html&quot;&gt;fontionnement de la chose&lt;/a&gt;, mais grâce à une simple page web (&lt;a href=&quot;http://music.schoewilliam.fr/&quot;&gt;music.schoewilliam.fr&lt;/a&gt;), et &lt;a href=&quot;https://github.com/Schoewilliam/music.schoewilliam/blob/master/manifest.webapp&quot;&gt;un manifest&lt;/a&gt;, je dispose de la meilleure expérience pour écouter ma musique depuis mon téléphone, n’importe quel appareil exécutant les open web apps, ou tout simplement tout navigateur web.&lt;br /&gt;
+On aborde alors un aspect important du principe : l’universalité du web. Comme il existe des navigateurs web pour toutes les plateformes, chaque open web app n’a à être développée qu’une fois pour être disponible au plus grand nombre.&lt;/p&gt;
+
+&lt;h3 id=&quot;shyhome-exprience-du-potentiel-du-web&quot;&gt;Shyhome, expérience du potentiel du web.&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Schoewilliam/Shyhome&quot;&gt;Shyhome&lt;/a&gt; est un écran d’accueil pour Firefox OS. Un écran d’accueil. Je suis peut-être toujours trop enthousiaste, mais me dire qu’il s’agit d’un écran d’accueil entièrement réalisé avec les technologies du web me fait trouver cela génial. Ces technologies ne se limitent plus à de simples pages, ou de simples applications tournant dans le navigateur.&lt;br /&gt;
+L’initiative &lt;em&gt;open web apps&lt;/em&gt; fait du web une plateforme à un potentiel nouveau. Et l’interface &lt;a href=&quot;https://github.com/mozilla-b2g/gaia&quot;&gt;Gaia&lt;/a&gt;, devéloppée pour Firefox OS m’impressionne pour ces raisons.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/openwebapps/shyhome.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/shyhome.png&quot; alt=&quot;Shyhome, un écran d&#39;accueil minimaliste pour Firefox OS&quot; class=&quot;align inline&quot; style=&quot;max-width:32.3%;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/images/openwebapps/shyhome2.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/shyhome2.png&quot; alt=&quot;Shyhome, un écran d&#39;accueil minimaliste pour Firefox OS&quot; class=&quot;align inline&quot; style=&quot;max-width:32.3%;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;/images/openwebapps/shyhome3.png&quot;&gt;&lt;img src=&quot;/images/openwebapps/shyhome3.png&quot; alt=&quot;Shyhome, un écran d&#39;accueil minimaliste pour Firefox OS&quot; class=&quot;align inline&quot; style=&quot;max-width:32.3%;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;alors-le-web-cest-magique-&quot;&gt;Alors le web, c’est magique ?&lt;/h3&gt;
+
+&lt;p&gt;Presque ! Je me laisse à rêver qu’il s’agit là du véritable espoir d’une plateforme vaste, sans limites, et surtout &lt;strong&gt;ouverte&lt;/strong&gt;. Après avoir rejoint les &lt;em&gt;App Reviewers&lt;/em&gt; du &lt;a href=&quot;https://marketplace.firefox.com/&quot;&gt;Firefox Marketplace&lt;/a&gt;, je croise et teste chaque jour toujours davantage d’applications, aussi variées qu’innovantes, chacune voyant un succès croissant.&lt;br /&gt;
+Mon bilan d’expérience ne peut être plus enthousiaste.&lt;/p&gt;
+</description>
+				<pubDate>Sat, 03 May 2014  +0530</pubDate>
+				<link>http://schoewilliam.fr/2014/05/03/apr%C3%A8s-quelques-open-web-apps-bilan-d-exp%C3%A9rience-.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2014/05/03/apr%C3%A8s-quelques-open-web-apps-bilan-d-exp%C3%A9rience-.html</guid>
+			</item>
+		
+			<item>
+				<title>Nous deux, notre petit et ses sœurs.</title>
+				     
+                    <description>&lt;p&gt;Au coucher de la dernière lumière de cette Terre&lt;br /&gt;
+À l’extinction de la dernière ère&lt;br /&gt;
+Il n’existe ni corps ni couleur qui aime&lt;br /&gt;
+Il n’existe qu’un souffle postmortem&lt;br /&gt;
+Le néant témoigne de souvenirs éteints.&lt;br /&gt;
+L’or n’était qu’un rêve.&lt;/p&gt;
+
+&lt;p&gt;Mais petite chose en tout&lt;br /&gt;
+Une perle bleue et luminescente vit encore&lt;br /&gt;
+Elle orne le plus fou.&lt;/p&gt;
+
+&lt;p&gt;Et vois, si nous y entrons en douceur&lt;br /&gt;
+Un monde fleuri, immense et lumineux nous accueille&lt;br /&gt;
+Nous deux, notre petit et ses sœurs.&lt;/p&gt;
+
+&lt;p&gt;La lumière est éternelle.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 10 Apr 2014  +0530</pubDate>
+				<link>http://schoewilliam.fr/2014/04/10/nous-deux-notre-petit-et-ses-s%C5%93urs.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2014/04/10/nous-deux-notre-petit-et-ses-s%C5%93urs.html</guid>
+			</item>
+		
+			<item>
+				<title>Écrire avec les tengwar.</title>
+				     
+                    <description>&lt;p&gt;&lt;em&gt;Ai découvert il y a quelques temps les &lt;a href=&quot;http://fr.wikipedia.org/wiki/Tengwar&quot;&gt;&lt;strong&gt;tengwar&lt;/strong&gt;&lt;/a&gt;, qui sont une forme fictive de manuscrit inventée par Tolkien pour son œuvre.&lt;br /&gt;
+Il y a à savoir une simple chose : je les trouve extrêmement beaux.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Les tengwar pouvant être utilisés pour transcrire toutes les langues, par principe, grâce à des modes d’écritures spécifiques à chaque langue, me suis attaché (à l’envie) à apprendre et assimiler l’un des modes français : &lt;a href=&quot;http://www.simonrousseau.free.fr/tolkien/teng-fra.pdf&quot;&gt;celui proposé par un certain Simon Rousseau&lt;/a&gt; (bien que me je me sois également penché sur le mode orthographique de l’anglais, suggéré par Tolkien lui-même, car il peut être fort pratique).&lt;/p&gt;
+
+&lt;p&gt;M’y suis si bien passionné que je l’écris et le lis aussi naturellement que l’alphabet latin. Et croyez-moi bien : je m’entrainais en conditions réelles. Cela passait par l’écriture de quelques mots vains, jusqu’à prendre en notes des parties entières de mes cours de philosophie en utilisant les tengwar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/tengwar1.png&quot; alt=&quot;Quelques vers écrits avec des tengwar, écrit en cours de philosophie.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Avec les tengwar, j’écris de toutes sortes et de toutes formes de textes. Mais la forme qui revient le plus est le vers, ou les formes les plus libres de poésie.&lt;br /&gt;
+Voilà où cela devient d’autant plus intéressant. Jamais je n’aurais pu écrire de tels vers si ne je ne les avais posés sur le papier avec les tengwar. Car je note bien : &lt;strong&gt;ils sont complètement fous&lt;/strong&gt;.&lt;br /&gt;
+Alors j’y ai pensé. Et j’ai compris un formidable avantage à leur utilisation. Lorsque j’utilise les tengwar, aussitôt chaque vers posé, je l’oublie grâce à sa forme belle et originale, forçant au vers qui le suit d’être d’un fabuleux décalage, et de donner au tout un son unique.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Que voir en les tengwar ?&lt;/em&gt; Un outil agréable, beau et humble pour chaque homme poète qui, par la folie, découvre des rêves.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sûrement les prochains textes que je publierai auront été en partie inspirés par l’aspect que les tengwar leur ont donné.&lt;/em&gt;&lt;/p&gt;
+</description>
+				<pubDate>Tue, 04 Mar 2014  +0530</pubDate>
+				<link>http://schoewilliam.fr/2014/03/04/%C3%89crire-avec-les-tengwar.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2014/03/04/%C3%89crire-avec-les-tengwar.html</guid>
+			</item>
+		
+	</channel>
+</rss>

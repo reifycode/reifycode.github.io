@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+    
+	       Quant aux open web apps, petit bilan d&#39;expérience.
+           - Schoewilliam 
+    
+    </title>
+    
+    
+    <meta name="description" content="Open web enthusiast, non-writer writer, Iceland dreamer.">
+    
+    
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <link rel="alternate" type="application/rss+xml" title="Schoewilliam.fr RSS (FR posts)" href="/flux.xml">
+    <link rel="alternate" type="application/rss+xml" title="Schoewilliam.fr RSS (EN posts)" href="/feed.xml">
+
+    <meta name="author" content="William Dorffer aka. Schoewilliam">
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    
+  </head>
+  
+  <body class="post">
+  
+    <header>
+        <div class="left">
+            <a onclick="document.querySelector('body > aside').classList.toggle('nav-shown'); document.querySelector('.menu').classList.toggle('shown');" class="menu"><span class="mega-octicon octicon-three-bars"></span></a>
+            
+            <a class="small-site-title" href="/">Schoewilliam</a>
+            
+        </div>
+        <div class="right">
+            
+            
+            
+                <a class="active" href="/2014/05/03/apr%C3%A8s-quelques-open-web-apps-bilan-d-exp%C3%A9rience-.html">fr</a>
+            
+            <a title="Allumer/Éteindre la lumière" class="lights"><span class="mega-octicon octicon-light-bulb"></span></a>
+        </div>
+    </header>
+
+    <aside>
+        <div class="book-title">
+            
+                <h1>Quant aux open web apps, petit bilan d'expérience.</h1>
+            
+        </div>
+
+        <nav id="nav">
+    
+        <a href="/a-propos">À Propos</a>
+    
+        <a href="/projets">Projets</a>
+    
+        <a href="/archive">Blog</a>
+    
+        <a href="/a-propos#contact">Contact</a>
+    
+</nav>
+
+
+        <nav id="prevnext">
+           
+                
+                    <a class="prev" title="Nous deux, notre petit et ses sœurs." href="/2014/04/10/nous-deux-notre-petit-et-ses-s%C5%93urs.html">
+                        Article précédent
+                    </a>
+                
+
+                
+                    <a class="next" title="Sélection d'applications pour Firefox OS #1" href="/2014/05/14/liste-d-applications-pour-firefox-os.html">
+                        Article suivant
+                    </a>
+                
+           
+        </nav>
+    </aside>
+
+
+    <!-- Page content -->
+    <section>
+    <div class="post">
+        
+
+        <time datetime='3 May 2014' class="top">
+  
+  
+    3
+  
+
+
+
+ 
+ mai
+    
+
+2014
+</time>
+        <p>« <em>Open web apps are essentially no different to standard websites or web apps. They are built using standard open web technologies (…) and can be accessed using a web browser. The main differences lie in their ability to be installed on devices and work offline, access to advanced APIs that allow interaction with device features such as camera, gyroscope and address book, (…). Generally, they provide users with an “app experience”, while still being based on open, cross platform technologies.</em> »<br />
+— <a href="https://developer.mozilla.org/en-US/Apps/Quickstart">Mozilla Developer Network, Quickstart</a></p>
+
+<p>Il s’agit de faire du <a href="https://blog.mozilla.org/webdev/2012/09/14/apps-the-web-is-the-platform/">web <em>la</em> plateforme</a>. Je suis à mon habitude curieux et fort enthousiaste, alors j’ai essayé.</p>
+
+<h3 id="schoses-exprience-dun-web-tout--fait-fonctionnel-hors-ligne">Schoses, expérience d’un web tout à fait fonctionnel hors-ligne.</h3>
+
+<p>Avec <a href="http://schoses.schoewilliam.fr">Schoses</a>, petite application pour créer des listes plus ou moins sensées, j’ai touché au potentiel de petits moyens du web, tels que l’<a href="https://developer.mozilla.org/en/docs/HTML/Using_the_application_cache"><em>appcache</em></a>, ou <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Storage#localStorage"><em>localstorage</em></a>. Grâce à eux, bien qu’hébergé sur un serveur distant, Schoses fonctionne entièrement hors-ligne, se met à jour de manière absolument silencieuse aussitôt une connexion disponible, et stocke ses données du côté client.<br />
+Au-delà de cet aspect, c’était encore une fois une belle occasion de s’essayer à la création d’interfaces agréables et fluides (ce qui implique alors les transitions et les animations CSS, ou encore des notions improvisées d’ergonomie).</p>
+
+<p><a href="/images/openwebapps/schoses.png"><img src="/images/openwebapps/schoses.png" alt="Schoses running on a Geeksphone Peak" class="align inline" style="max-width:32.3%;" /></a>
+<a href="/images/openwebapps/schoses2.png"><img src="/images/openwebapps/schoses2.png" alt="Schoses running on a Geeksphone Peak" class="align inline" style="max-width:32.3%;" /></a>
+<a href="/images/openwebapps/schoses3.png"><img src="/images/openwebapps/schoses3.png" alt="Schoses running on a Geeksphone Peak" class="align inline" style="max-width:32.3%;" /></a></p>
+
+<h3 id="schmusic-exprience-du-web-multimdia">Schmusic, expérience du web multimédia.</h3>
+
+<p><a href="/images/openwebapps/schmusic.png"><img src="/images/openwebapps/schmusic.png" alt="Schmusic running on a Geeksphone Keon" class="align right" style="max-width:35%;" /></a></p>
+
+<p><a href="http://music.schoewilliam.fr">Schmusic</a> répond à une problématique simple : comment écouter ma musique de n’importe où ? Quand on admet que <em>le web est la plateforme</em>, la solution est évidente.<br />
+Je passe le <a href="/2013/08/02/music-schoewilliam-fr-résultat-dune-heure-d-ennui.html">fontionnement de la chose</a>, mais grâce à une simple page web (<a href="http://music.schoewilliam.fr/">music.schoewilliam.fr</a>), et <a href="https://github.com/Schoewilliam/music.schoewilliam/blob/master/manifest.webapp">un manifest</a>, je dispose de la meilleure expérience pour écouter ma musique depuis mon téléphone, n’importe quel appareil exécutant les open web apps, ou tout simplement tout navigateur web.<br />
+On aborde alors un aspect important du principe : l’universalité du web. Comme il existe des navigateurs web pour toutes les plateformes, chaque open web app n’a à être développée qu’une fois pour être disponible au plus grand nombre.</p>
+
+<h3 id="shyhome-exprience-du-potentiel-du-web">Shyhome, expérience du potentiel du web.</h3>
+
+<p><a href="https://github.com/Schoewilliam/Shyhome">Shyhome</a> est un écran d’accueil pour Firefox OS. Un écran d’accueil. Je suis peut-être toujours trop enthousiaste, mais me dire qu’il s’agit d’un écran d’accueil entièrement réalisé avec les technologies du web me fait trouver cela génial. Ces technologies ne se limitent plus à de simples pages, ou de simples applications tournant dans le navigateur.<br />
+L’initiative <em>open web apps</em> fait du web une plateforme à un potentiel nouveau. Et l’interface <a href="https://github.com/mozilla-b2g/gaia">Gaia</a>, devéloppée pour Firefox OS m’impressionne pour ces raisons.</p>
+
+<p><a href="/images/openwebapps/shyhome.png"><img src="/images/openwebapps/shyhome.png" alt="Shyhome, un écran d'accueil minimaliste pour Firefox OS" class="align inline" style="max-width:32.3%;" /></a>
+<a href="/images/openwebapps/shyhome2.png"><img src="/images/openwebapps/shyhome2.png" alt="Shyhome, un écran d'accueil minimaliste pour Firefox OS" class="align inline" style="max-width:32.3%;" /></a>
+<a href="/images/openwebapps/shyhome3.png"><img src="/images/openwebapps/shyhome3.png" alt="Shyhome, un écran d'accueil minimaliste pour Firefox OS" class="align inline" style="max-width:32.3%;" /></a></p>
+
+<h3 id="alors-le-web-cest-magique-">Alors le web, c’est magique ?</h3>
+
+<p>Presque ! Je me laisse à rêver qu’il s’agit là du véritable espoir d’une plateforme vaste, sans limites, et surtout <strong>ouverte</strong>. Après avoir rejoint les <em>App Reviewers</em> du <a href="https://marketplace.firefox.com/">Firefox Marketplace</a>, je croise et teste chaque jour toujours davantage d’applications, aussi variées qu’innovantes, chacune voyant un succès croissant.<br />
+Mon bilan d’expérience ne peut être plus enthousiaste.</p>
+
+
+        <p style="text-align:right;">
+        
+        
+            <span style="float:right; margin-left:.25em;" class="mega-octicon octicon-tag"></span>
+            <a href="/archive#libre">Libre</a>, 
+        
+            
+            <a href="/archive#openweb">Open web</a>, 
+        
+            
+            <a href="/archive#projects">Projects</a>.
+        
+        
+        </p>
+    </div>
+</section>
+
+
+    <script src="/js/nightmode.js" type="text/javascript"></script>
+    <script src="/js/smooth-scroll.js" type="text/javascript"></script>
+
+     <!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik.schoewilliam.fr/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//piwik.schoewilliam.fr/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+  </body>
+</html>

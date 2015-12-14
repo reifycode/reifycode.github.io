@@ -1,0 +1,26 @@
+en:
+  about:
+    title: "About"
+    url:   "/about"
+  projects:
+    title: "Projects"
+    url:   "/projects"
+  weblog:
+    title: "Blog"
+    url:   "/en/archive"
+  contact:
+    title: "Contact"
+    url:   "/about#contact"
+fr:
+  about:
+    title: "À Propos"
+    url:   "/a-propos"
+  projects:
+    title: "Projets"
+    url:   "/projets"
+  weblog:
+    title: "Blog"
+    url:   "/archive"
+  contact:
+    title: "Contact"
+    url:   "/a-propos#contact"

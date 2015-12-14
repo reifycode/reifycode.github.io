@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+    {% if page.title %}
+	       {{ page.title | replace:'&nbsp;',' ' | strip_html | escape }}
+           {% unless page.bodyclass == "home" %}- {{ site.title }} {% endunless %}
+    {% else %}
+	       {{ site.title }}
+    {% endif %}
+    </title>
+    
+    {% if page.description %}
+    <meta name="description" content="{{ page.description | escape }}">
+    {% else %}
+    <meta name="description" content="{{ site.description | escape }}">
+    {% endif %}
+    
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <link rel="alternate" type="application/rss+xml" title="Schoewilliam.fr RSS (FR posts)" href="/flux.xml">
+    <link rel="alternate" type="application/rss+xml" title="Schoewilliam.fr RSS (EN posts)" href="/feed.xml">
+
+    <meta name="author" content="{{ site.author }}">
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    {% if page.headimg_url %}
+    <style>
+        body:before {
+            background-image: url({{ page.headimg_url }});
+            background-position: center center;
+            opacity: .4;
+        }
+    </style>
+    {% endif %}
+  </head>
+  
+  <body {% if page.bodyclass %}class="{{ page.bodyclass }}"{% endif %}>
+  
+    <header>
+        <div class="left">
+            <a onclick="document.querySelector('body > aside').classList.toggle('nav-shown'); document.querySelector('.menu').classList.toggle('shown');" class="menu"><span class="mega-octicon octicon-three-bars"></span></a>
+            {% unless page.bodyclass == "home" %}
+            <a class="small-site-title" href="/{% if page.lang == "en" %}en{% endif %}">Schoewilliam</a>
+            {% else %}
+                <a href="http://twitter.com/Schoewilliam" class="social twitter" title="Twitter Profile"></a>
+                <a href="http://github.com/Schoewilliam" class="social github"><span class="mega-octicon octicon-mark-github" title="Github Profile"></span></a>
+            {% endunless %}
+        </div>
+        <div class="right">
+            {% if page.bodyclass == "archive" %}{% include cat-selector.html %}{% endif %}
+            {% assign altlang=site.posts | where:"date", page.date | sort: 'path' %}
+            {% for post in altlang %}
+                <a {% if page.lang == post.lang %}class="active"{% endif %} href="{{ post.url }}">{{ post.lang }}</a>
+            {% endfor %}
+            <a title="{{ site.data.translations[page.lang].lights }}" class="lights"><span class="mega-octicon octicon-light-bulb"></span></a>
+        </div>
+    </header>
+
+    <aside>
+        <div class="book-title">
+            {% if page.bodyclass == "home" %}
+                <h1>Schoewilliam</h1>
+                <small>Open·Web Designer</small>
+            {% else %}
+                <h1>{{ page.title }}</h1>
+            {% endif %}
+        </div>
+
+        {% include nav.html %}
+
+        <nav id="prevnext">
+           {% unless page.bodyclass == "post" %}
+              {% if page.navigation %}
+               <span class="thispage">{{ site.data.translations[page.lang].onthispage }}</span>
+                {% for link in page.navigation %}
+                    <a data-scroll href="{{ link.url }}">{{ link.title }}</a>
+                {% endfor %}
+              {% endif %}
+           {% else %}
+                {% if page.previous %}
+                    <a class="prev" title="{{ page.previous.title }}" href="{{ page.previous.url }}">
+                        {{ site.data.translations[page.lang].previouspost }}
+                    </a>
+                {% endif %}
+
+                {% if page.next %}
+                    <a class="next" title="{{ page.next.title }}" href="{{ page.next.url }}">
+                        {{ site.data.translations[page.lang].nextpost }}
+                    </a>
+                {% endif %}
+           {% endunless %}
+        </nav>
+    </aside>
+
+
+    <!-- Page content -->
+    {{ content }}
+
+    <script src="/js/nightmode.js" type="text/javascript"></script>
+    <script src="/js/smooth-scroll.js" type="text/javascript"></script>
+
+    {% include piwik.html %}
+  </body>
+</html>

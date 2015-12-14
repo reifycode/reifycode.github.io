@@ -1,0 +1,38 @@
+## Configuration file
+
+name: Schoewilliam
+url: http://schoewilliam.fr
+
+author: William Dorffer aka. Schoewilliam
+description: Open web enthusiast, non-writer writer, Iceland dreamer.
+title: Schoewilliam
+
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+
+gems:
+  - jekyll-redirect-from
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      lang: fr
+      layout: default
+  -
+    scope:
+      path: _posts/en
+    values:
+      lang: en
+
+
+nodes:
+- text: diaspora*
+  url: https://diaspora-fr.org/u/schoewilliam
+- text: Github
+  url: https://github.com/Schoewilliam
+- text: Mozillians
+  url: https://mozillians.org/en-US/u/schoewilliam/
+- text: GNU Social
+  url: https://status.vinilox.eu/schoewilliam
