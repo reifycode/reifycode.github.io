@@ -21,8 +21,18 @@
     
     <style>
         body:before {
-            background-image: url(/images/rails/rails.png);
+            background-image: none;
             background-position: center center;
+            opacity: .4;
+        }
+        body>aside>#bg-wrapper {
+            content: " ";
+            position: relative;
+            top: 0; left: 0;
+            width: 100%;
+            height: 100%;
+            background: url(/images/rails/rails.png) left center / cover #222;
+            z-index: -1;
             opacity: .4;
         }
     </style>
@@ -35,26 +45,23 @@
         <div class="left">
             <a onclick="document.querySelector('body > aside').classList.toggle('nav-shown'); document.querySelector('.menu').classList.toggle('shown');" class="menu"><span class="mega-octicon octicon-three-bars"></span></a>
             
-            <a class="small-site-title" href="/en">Schoewilliam</a>
+            <a class="small-site-title">reify</a>
             
         </div>
         <div class="right">
             
             
-            
-                
-            
-                
-            
-                
-            
-                
+               
+               
+               
+               
             
             <a title="" class="lights"><span class="mega-octicon octicon-light-bulb"></span></a>
         </div>
     </header>
 
     <aside>
+    	<div id="bg-wrapper"></div>
         <div class="book-title">
             
                 <h1>Starting off with Ruby or Rails</h1>

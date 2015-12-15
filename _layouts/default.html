@@ -49,17 +49,16 @@
         <div class="left">
             <a onclick="document.querySelector('body > aside').classList.toggle('nav-shown'); document.querySelector('.menu').classList.toggle('shown');" class="menu"><span class="mega-octicon octicon-three-bars"></span></a>
             {% unless page.bodyclass == "home" %}
-            <a class="small-site-title" href="/{% if page.lang == "en" %}en{% endif %}">Schoewilliam</a>
+            <a class="small-site-title">reify</a>
             {% else %}
-                <a href="http://twitter.com/Schoewilliam" class="social twitter" title="Twitter Profile"></a>
-                <a href="http://github.com/Schoewilliam" class="social github"><span class="mega-octicon octicon-mark-github" title="Github Profile"></span></a>
+                <a href="http://twitter.com/reifycode" class="social twitter" title="Twitter Profile"></a>
+                <a href="http://github.com/reifycode" class="social github"><span class="mega-octicon octicon-mark-github" title="Github Profile"></span></a>
             {% endunless %}
         </div>
         <div class="right">
             {% if page.bodyclass == "archive" %}{% include cat-selector.html %}{% endif %}
             {% assign altlang=site.posts | where:"date", page.date | sort: 'path' %}
-            {% for post in altlang %}
-                
+            {% for post in altlang %}   
             {% endfor %}
             <a title="{{ site.data.translations[page.lang].lights }}" class="lights"><span class="mega-octicon octicon-light-bulb"></span></a>
         </div>
