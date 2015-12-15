@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html>
   <head>
     <meta charset="UTF-8">
     <title>
@@ -18,7 +18,6 @@
     {% endif %}
     
     <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
-    <link rel="alternate" type="application/rss+xml" title="Schoewilliam.fr RSS (FR posts)" href="/flux.xml">
     <link rel="alternate" type="application/rss+xml" title="Schoewilliam.fr RSS (EN posts)" href="/feed.xml">
 
     <meta name="author" content="{{ site.author }}">
@@ -50,7 +49,7 @@
             {% if page.bodyclass == "archive" %}{% include cat-selector.html %}{% endif %}
             {% assign altlang=site.posts | where:"date", page.date | sort: 'path' %}
             {% for post in altlang %}
-                <a {% if page.lang == post.lang %}class="active"{% endif %} href="{{ post.url }}">{{ post.lang }}</a>
+                
             {% endfor %}
             <a title="{{ site.data.translations[page.lang].lights }}" class="lights"><span class="mega-octicon octicon-light-bulb"></span></a>
         </div>
