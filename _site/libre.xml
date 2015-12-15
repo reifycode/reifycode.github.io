@@ -3,8 +3,8 @@
   <channel>
   	<title>reify</title>
 		<description>Schoewilliam — Billets catégorisés dans "Libre"</description>
-		<link>http://schoewilliam.fr</link>
-		<atom:link href="http://schoewilliam.fr/libre.xml" rel="self" type="application/rss+xml" />
+		<link>http://reifycode.github.io</link>
+		<atom:link href="http://reifycode.github.io/libre.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

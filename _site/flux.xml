@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>Schoewilliam - FR</title>
-		<description>Open web enthusiast, non-writer writer, Iceland dreamer.</description>		
-		<link>http://schoewilliam.fr</link>
-		<atom:link href="http://schoewilliam.fr/flux.xml" rel="self" type="application/rss+xml" />
+		<title>reify - FR</title>
+		<description>Open web enth</description>		
+		<link>http://reifycode.github.io</link>
+		<atom:link href="http://reifycode.github.io/flux.xml" rel="self" type="application/rss+xml" />
         
 		
 	</channel>
