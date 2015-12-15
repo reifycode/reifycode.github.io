@@ -25,8 +25,18 @@
     {% if page.headimg_url %}
     <style>
         body:before {
-            background-image: url({{ page.headimg_url }});
+            background-image: none;
             background-position: center center;
+            opacity: .4;
+        }
+        body>aside>#bg-wrapper {
+            content: " ";
+            position: relative;
+            top: 0; left: 0;
+            width: 100%;
+            height: 100%;
+            background: url({{page.headimg_url}}) left center / cover #222;
+            z-index: -1;
             opacity: .4;
         }
     </style>
@@ -56,6 +66,7 @@
     </header>
 
     <aside>
+    	<div id="bg-wrapper"></div>
         <div class="book-title">
             {% if page.bodyclass == "home" %}
                 <h1>reify</h1>
