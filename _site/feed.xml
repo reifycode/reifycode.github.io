@@ -8,303 +8,88 @@
         
 		
 			<item>
-				<title>Radio Paradise, a multigenre radio supported by its listeners</title>
+				<title>Starting off with Ruby or Rails</title>
 				
-                    <description>&lt;p&gt;&lt;em&gt;Today, I decided to support &lt;a href=&quot;http://radioparadise.com&quot;&gt;an online radio&lt;/a&gt; that I’ve been listening to for several months already. Here’s me writing a small introduction, and sharing a project I enjoy every day.&lt;/em&gt;&lt;/p&gt;
+                    <description>&lt;h6 id=&quot;navigating-through-rails&quot;&gt;Navigating through rails:&lt;/h6&gt;
 
-&lt;p&gt;When I listen to music, I often just play my whole music library on shuffle mode, and let it run for hours. Whether it is in the background or I am actively listening to it. Not controlling which specific music I want to play allows me to endessly rediscover my library, which can only grow over time.&lt;/p&gt;
+&lt;p&gt;app folder - Where we do most of our work 
+Controllers are where the different options for each post are located.&lt;/p&gt;
 
-&lt;p&gt;The idea behind &lt;em&gt;Radio Paradise&lt;/em&gt; is to offer an Internet musical radio, without any commercial, and financially supported by its listeners.&lt;/p&gt;
+&lt;p&gt;Views are where we implement what the pages will look like.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;“What you won’t hear are random computer-generated playlists or mind-numbing commercials.”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;config -&amp;gt; root.rb -&amp;gt; root to out controller and view&lt;/p&gt;
 
-&lt;p&gt;The music played on air will certainly appeal to many people. Genres vary a lot. However, a very special attention is given to the way songs flow together so as to make sense “&lt;em&gt;harmonically, rhythmically, and lyrically&lt;/em&gt;”.&lt;/p&gt;
+&lt;p&gt;changed the view.htmlerb file and get the new page.
+Yay !!
+^^Check steps above^^&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;“RP is a blend of many styles and genres of music, carefully selected and mixed by two real human beings.”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;irb is the command you will use to get ruby running&lt;/p&gt;
 
-&lt;p&gt;The two people behind it work &lt;em&gt;full time&lt;/em&gt; on Radio Paradise to manage it all, and to conceive cohesive playlists, without creating any too big of a gap between two tracks. And I must admit: they succeed admirably.&lt;br /&gt;
-It was partly with this idea in mind that I had tried to set up my own &lt;a href=&quot;/2013/08/02/music-schoewilliam-fr-résultat-dune-heure-d-ennui.html&quot;&gt;personal webradio (fr)&lt;/a&gt; at the time.&lt;/p&gt;
+&lt;p&gt;Basically a fancy editor 
+No need of compilation of ruby 
+It is probably interpreted line by line 
+Ruby is cross platform 
+Always try to make functions cross-platform as there are some differences in the syntax for win or for mac 
+Thus make sure you consider cross-platform dependencies Rails is just a framework 
+Ruby is Object Oriented 
+10th most popular language 
+can use heroku or github to host stuff
+Heroic may turn out to be expensive 
+GitHub is best 
+Jekyll is nice 
+Ruby packages are a pain in the ass&lt;/p&gt;
 
-&lt;p&gt;I highly recommand it to you: &lt;a href=&quot;http://radioparadise.com&quot;&gt;radioparadise.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;rails generate controller name
+rails console 
+ |
+ |
+ |
+ |
+ V
+Inside the console 
+FUNCTIONS FOR POSTGRES DATABASE ELEMENTS&lt;/p&gt;
+
+&lt;p&gt;new
+save -&amp;gt; create is one way short-cut&lt;/p&gt;
+
+&lt;p&gt;table.attribute = whatever
+table.save
+table.update_attribute(VAR, NEW VALUE )
+table.update_attributes(    )
+ALWAYS HAVE A : BEFORE A TABLE VAR AND A @ BEFORE A VAR IN HTML THAT USES RUBY !!&lt;/p&gt;
+
+&lt;p&gt;Embedding Ruby in HTML isn’t pretty, but then again so isn’t PHP&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;%= FOR SHOWING STUFF ON THE SCREEN %&amp;gt;
+&amp;lt;% FOR NOT SHOWING STUFF %&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;@post = Post.find(params[:id])&lt;/p&gt;
+
+&lt;p&gt;strftime() is kind of useful
+%b %d. %Y
+link_to post.title, post
+form_for 
+stylesheet_link_tag
+javascript_include_tag
+flash messages are run using key value pairs 
+^^They are important for us to&lt;/p&gt;
+
+&lt;p&gt;AWS is used to put stuff on the net before heroku can actually find it 
+Don’t use filezilla if you don’t have your own site yet(hopefully soon ;))&lt;/p&gt;
+
+&lt;p&gt;So next up something called scaffolding(from prior experience this is not going to be pretty)
+Kind of useful&lt;/p&gt;
+
+&lt;p&gt;Active Admin is hard to use on newer versions of ruby 
+It doesn’t work well&lt;/p&gt;
+
+&lt;p&gt;seed along with migrate&lt;/p&gt;
+
+&lt;p&gt;“/….” match :to =&amp;gt; “/::::::”&lt;/p&gt;
 </description>
-				<pubDate>Wed, 18 Mar 2015 16:00:00 +0530</pubDate>
-				<link>http://schoewilliam.fr/2015/03/18/radio-paradise-en.html</link>
-				<guid isPermaLink="true">http://schoewilliam.fr/2015/03/18/radio-paradise-en.html</guid>
-			</item>
-		
-			<item>
-				<title>Jekyll pro tip: how to design an awesome Archive page.</title>
-				
-                    <description>&lt;p&gt;&lt;em&gt;(TL;DR) I explain how I designed my dynamic &lt;a href=&quot;/archive&quot;&gt;Archive page&lt;/a&gt; using Jekyll+Liquid syntax logic and a bit of CSS. (&lt;a href=&quot;#demo&quot;&gt;Jump to the demo bit&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Today, I wanted to sort my posts into categories, so as to have a more organised weblog overall.&lt;br /&gt;
-Jekyll handles categories pretty well actually. One has to add a &lt;code&gt;category: foo&lt;/code&gt; line (&lt;em&gt;foo&lt;/em&gt; being a category name) in the YAML head of a post, and that’s it! (use &lt;code&gt;categories: [foo1,foo2]&lt;/code&gt; if you set more than one category to a post).&lt;/p&gt;
-
-&lt;p&gt;The difficult part is to setup a page that would allow the user to filter posts by categories.&lt;br /&gt;
-I did stumble upon some Jekyll plugins that can automatically generate category indexes, which is quite practical indeed. I did not want, however, to use any plugin. That is why I had to try do something with liquid tags only. Also, the idea was to have only &lt;em&gt;one&lt;/em&gt; page do the work.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;the-liquid-logic&quot;&gt;The liquid logic&lt;/h2&gt;
-
-&lt;p&gt;We have main 3 objectives:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Design a navigation section — It consists of a list of links, each for a category that exists. The links will actually be anchors.&lt;/li&gt;
-  &lt;li&gt;Display the entire list of posts in a bloc — Because a user may want to navigate through a pure, chronologicaly ordered, list of your posts. And also because some of your posts may have no category attached to them, they would need to be shown somewhere.&lt;/li&gt;
-  &lt;li&gt;Display a list of posts &lt;strong&gt;for each category&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You get the idea: we have navigation links to switch between a entire feed of your posts or between your categories ; and below them is displayed the chosen feed or category.&lt;br /&gt;
-This way, the user can easily navigate through all your posts and their categories without having to deal with multiples pages.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;The navigation section.&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt;     &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;#allposts&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;All posts&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt;     {% for category in site.categories %}
-&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;#{{ category | first | remove:&amp;#39; &amp;#39; }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;{{ category | first }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/strong&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt; {% if forloop.last %}.{% else %}, {% endif %}
-&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt;     {% endfor %}
-&lt;span class=&quot;lineno&quot;&gt;6&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Line 2&lt;/strong&gt;, we include a static link pointing to &lt;code&gt;#allposts&lt;/code&gt;. When clicked, it will display the entire, unfiltered, list of posts.&lt;br /&gt;
-&lt;strong&gt;Lines 3 to 5&lt;/strong&gt;, We’re using a &lt;em&gt;loop&lt;/em&gt; to get all categories, and for each &lt;code&gt;category&lt;/code&gt; create a link.&lt;/p&gt;
-
-&lt;p&gt;Each link points to &lt;code&gt;#{{ category | first | remove:&#39; &#39; }}&lt;/code&gt;. Those parameters passed to &lt;code&gt;{{ category }}&lt;/code&gt; help creating an &lt;em&gt;anchor-proof&lt;/em&gt; string from the category name.&lt;br /&gt;
-For example, for a category named “&lt;em&gt;My Travels around the world&lt;/em&gt;”, the above will output : &lt;code&gt;#mytravelsaroundtheworld&lt;/code&gt;.&lt;br /&gt;
-&lt;em&gt;&lt;strong&gt;Note&lt;/strong&gt;: We will use the same liquid tag to define the bloc IDs to which the links we just created point to.&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;The entire, unfiltered, list of posts&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;catbloc&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;allposts&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt;     &lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;All posts&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt;     
-&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt;             {% for post in site.posts %}
-&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt;                 &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt;                     &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ post.url }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt;                     &lt;span class=&quot;nt&quot;&gt;&amp;lt;time&amp;gt;&lt;/span&gt;{{ post.date | date: &amp;quot;%-d %B %Y&amp;quot; }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/time&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt;                     {{ post.title }}
-&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt;                     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt;                 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt;             {% endfor %}
-&lt;span class=&quot;lineno&quot;&gt;13&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;This is no rocket science. If you use Jekyll, you’ve probably done something like that to display a chronological list of all your posts.&lt;/p&gt;
-
-&lt;p&gt;What is important here, &lt;strong&gt;Line 1&lt;/strong&gt;, is to surround the usual loop with a &lt;code&gt;div&lt;/code&gt; whose ID is &lt;code&gt;allposts&lt;/code&gt; (Remember we set a link pointing to &lt;code&gt;#allposts&lt;/code&gt; in the navigation section).&lt;br /&gt;
-The class &lt;code&gt;catbloc&lt;/code&gt; is quite important too. It must be the same for this bloc and all of the category blocs, which we will deal with right below.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;The category sections&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Now, for each category, we will list the posts it contains (the loop used &lt;strong&gt;Line 1&lt;/strong&gt;):&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; {% for category in site.categories %}
-&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt;     &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;catbloc&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ category | first | remove:&amp;#39; &amp;#39; }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;{{ category | first }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt;         
-&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt;            {% for posts in category %}
-&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt;              {% for post in posts %}
-&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt;                {% if post.url %}
-&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt;                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt;                    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ post.url }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt;                      &lt;span class=&quot;nt&quot;&gt;&amp;lt;time&amp;gt;&lt;/span&gt;{{ post.date | date: &amp;quot;%-d %B %Y&amp;quot; }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/time&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt;                      {{ post.title }}
-&lt;span class=&quot;lineno&quot;&gt;13&lt;/span&gt;                    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt;                  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;15&lt;/span&gt;                {% endif %}
-&lt;span class=&quot;lineno&quot;&gt;16&lt;/span&gt;              {% endfor %}
-&lt;span class=&quot;lineno&quot;&gt;17&lt;/span&gt;            {% endfor %}
-&lt;span class=&quot;lineno&quot;&gt;18&lt;/span&gt;         &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;19&lt;/span&gt;     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;20&lt;/span&gt; {% endfor %}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Note, &lt;strong&gt;on Line 2&lt;/strong&gt;, we’re setting the id of the bloc to our same &lt;em&gt;anchor-proof&lt;/em&gt; string made from the category name (without the &lt;code&gt;#&lt;/code&gt;, this time, of course).&lt;/p&gt;
-
-&lt;h2 id=&quot;the-css-switching-mechanism&quot;&gt;The CSS switching mechanism&lt;/h2&gt;
-
-&lt;p&gt;We only want our navigation section to be permanently on screen. We want the other sections to appear &lt;strong&gt;only if we click the link pointing to them&lt;/strong&gt;.&lt;br /&gt;
-I will be using here the &lt;code&gt;:target&lt;/code&gt; CSS pseudo-class.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.catbloc&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:not&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:target&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;That’s… basically it.&lt;br /&gt;
-The situation described here is that any element whose class is set to &lt;code&gt;catbloc&lt;/code&gt;, and that is not being targeted by any anchor, won’t be displayed.&lt;/p&gt;
-
-&lt;p&gt;In other words, to make a section appear, the user has to click the link that points to its anchor.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong id=&quot;demo&quot;&gt;Have a demo&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; src=&quot;http://jsfiddle.net/schoewilliam/trbkq2th/3/embedded/result,html,css/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;And with a bonus CSS animation&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;300&quot; src=&quot;http://jsfiddle.net/schoewilliam/trbkq2th/6/embedded/result,html,css/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;And for a practical and tangible demo, you can have a look at my &lt;a href=&quot;/archive&quot;&gt;own Archive page&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;done&quot;&gt;Done&lt;/h2&gt;
-
-&lt;p&gt;I like this layout a lot. I think this is both great functionality and great UX at a really low cost.
-Feel free to tell me what you think.&lt;/p&gt;
-</description>
-				<pubDate>Tue, 10 Feb 2015  +0530</pubDate>
-				<link>http://schoewilliam.fr/2015/02/10/jekyll-pro-tip-awesome-archive-page.html</link>
-				<guid isPermaLink="true">http://schoewilliam.fr/2015/02/10/jekyll-pro-tip-awesome-archive-page.html</guid>
-			</item>
-		
-			<item>
-				<title>Introducing Schrift, a Jekyll template designed for prose.</title>
-				
-                    <description>&lt;p&gt;&lt;em&gt;I have often tried to design a weblog style that would focus on the content and would still be elegant and nice to look at. I don’t pretend I have achieved it yet. But here is my most recent attempt at it. I’m making this template &lt;strong&gt;for Jekyll&lt;/strong&gt; &lt;strong&gt;available now&lt;/strong&gt;. Please use and hack!&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Download it from the &lt;a href=&quot;https://github.com/Schoewilliam/Schrift&quot;&gt;git repository&lt;/a&gt;,&lt;/li&gt;
-  &lt;li&gt;Have a look at the &lt;a href=&quot;http://schrift.schoewilliam.fr&quot;&gt;demo site schrift.schoewilliam.fr&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/schrift/schriftscr1.png&quot; alt=&quot;Schrift screenshot&quot; class=&quot;align center&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Also, the idea being that it can be used as-is, I have included some options in the &lt;a href=&quot;https://github.com/Schoewilliam/Schrift/blob/master/_config.yml&quot;&gt;&lt;code&gt;_config.yml&lt;/code&gt;&lt;/a&gt; file. This way one can start using the template in 4 steps :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Install Jekyll on their system,&lt;/li&gt;
-  &lt;li&gt;Clone the repository,&lt;/li&gt;
-  &lt;li&gt;Edit the config file,&lt;/li&gt;
-  &lt;li&gt;Run &lt;code&gt;jekyll build&lt;/code&gt;. And done!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It can still be enhanced! I’m also open to adapt it to other CMSes. Open issues, use it, make it better, as always.&lt;/p&gt;
-</description>
-				<pubDate>Wed, 28 Jan 2015  +0530</pubDate>
-				<link>http://schoewilliam.fr/2015/01/28/schrift-a-jekyll-template-designed-for-prose-.html</link>
-				<guid isPermaLink="true">http://schoewilliam.fr/2015/01/28/schrift-a-jekyll-template-designed-for-prose-.html</guid>
-			</item>
-		
-			<item>
-				<title>Back from MozFest 2014!</title>
-				
-                    <description>&lt;p&gt;&lt;em&gt;Just got back home from London at &lt;a href=&quot;http://2014.mozillafestival.org/&quot;&gt;Mozilla Festival 2014&lt;/a&gt; [and a little detour by Paris on the way back home]. It was really nice to meet some of my fellows from the Marketplace Team, and to enjoy with a lot of enthusiastic mozillians.&lt;br /&gt;
-Below are some photos from MozFest, and my little London Tour.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;mozfest&quot;&gt;MozFest!&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/images/mozfest2014/IMG_0044.jpg&quot;&gt;&lt;img src=&quot;/images/mozfest2014/IMG_0044.jpg&quot; alt=&quot;Welcoming desk at Ravensbourne&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/mozfest2014/IMG_0029.jpg&quot;&gt;&lt;img src=&quot;/images/mozfest2014/IMG_0029.jpg&quot; alt=&quot;Another view at the welcoming desks&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/mozfest2014/IMG_0030.jpg&quot;&gt;&lt;img src=&quot;/images/mozfest2014/IMG_0030.jpg&quot; alt=&quot;Air Mozilla droooone&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/mozfest2014/IMG_0035.jpg&quot;&gt;&lt;img src=&quot;/images/mozfest2014/IMG_0035.jpg&quot; alt=&quot;Badgy badge&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/mozfest2014/IMG_0038.jpg&quot;&gt;&lt;img src=&quot;/images/mozfest2014/IMG_0038.jpg&quot; alt=&quot;Collaboration is king&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/mozfest2014/IMG_0042.jpg&quot;&gt;&lt;img src=&quot;/images/mozfest2014/IMG_0042.jpg&quot; alt=&quot;The Web we want…&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;little-london-tour&quot;&gt;Little London tour&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/images/mozfest2014/IMG_0067.jpg&quot;&gt;&lt;img src=&quot;/images/mozfest2014/IMG_0067.jpg&quot; alt=&quot;Westminster&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/mozfest2014/IMG_0072.jpg&quot;&gt;&lt;img src=&quot;/images/mozfest2014/IMG_0072.jpg&quot; alt=&quot;London Eye&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/mozfest2014/IMG_0064.jpg&quot;&gt;&lt;img src=&quot;/images/mozfest2014/IMG_0064.jpg&quot; alt=&quot;Tower Bridge&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/mozfest2014/IMG_0066.jpg&quot;&gt;&lt;img src=&quot;/images/mozfest2014/IMG_0066.jpg&quot; alt=&quot;A sea of red tulipes&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/mozfest2014/IMG_0026.jpg&quot;&gt;&lt;img src=&quot;/images/mozfest2014/IMG_0026.jpg&quot; alt=&quot;Sherlock Holmes Museum&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-				<pubDate>Wed, 29 Oct 2014  +0530</pubDate>
-				<link>http://schoewilliam.fr/2014/10/29/mozfest2014.html</link>
-				<guid isPermaLink="true">http://schoewilliam.fr/2014/10/29/mozfest2014.html</guid>
-			</item>
-		
-			<item>
-				<title>How am I supposed to dream ?</title>
-				
-                    <description>&lt;p&gt;One small question… that I ask myself everyday. I feel like tired. And guess something ; I told myself the other day : &lt;em&gt;“What a shame to feel tired at seventeen…”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Something really wrong gets over me each time that I hear about studies, society life, the future which I “have to think of”. How am I supposed to dream?&lt;/p&gt;
-
-&lt;p&gt;Something really wrong gets over me once I realise that I am not standing the way I would like to, once I feel my pained feet trying to move. How am I supposed to dream?&lt;/p&gt;
-
-&lt;p&gt;I am not trying to be poetic, to write something beautiful, or to pretend that I am depressed. I am not yet. Right now, I am trying to figure out how such music could make me able to dream.&lt;/p&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/23349644&quot;&gt; &lt;/iframe&gt;
-
-&lt;p&gt;How am I supposed to dream if I keep feeling being the only one sitting there, and enjoying ?&lt;/p&gt;
-</description>
-				<pubDate>Mon, 04 Nov 2013  +0530</pubDate>
-				<link>http://schoewilliam.fr/2013/11/04/how-am-i-supposed-to-dream.html</link>
-				<guid isPermaLink="true">http://schoewilliam.fr/2013/11/04/how-am-i-supposed-to-dream.html</guid>
-			</item>
-		
-			<item>
-				<title>Back from the Mozilla Summit in Brussels</title>
-				
-                    <description>&lt;p&gt;&lt;a href=&quot;/images/summit2013/together.jpg&quot;&gt;&lt;img src=&quot;/images/summit2013/together.jpg&quot; alt=&quot;A lot of Mozillians&quot; /&gt;&lt;/a&gt;
-Never too many Mozillians. Never.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/summit2013/goldhall.jpg&quot;&gt;&lt;img src=&quot;/images/summit2013/goldhall.jpg&quot; alt=&quot;The Gold Hall&quot; /&gt;&lt;/a&gt;
-First time in the Gold Hall.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/summit2013/greenkitkats.jpg&quot;&gt;&lt;img src=&quot;/images/summit2013/greenkitkats.jpg&quot; alt=&quot;Green Kitkats&quot; /&gt;&lt;/a&gt;
-At the Japenese table at the World Fair I could taste some Kitkats… green Kitkats. Green tea and wasabi !&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/summit2013/openbadges.jpg&quot;&gt;&lt;img src=&quot;/images/summit2013/openbadges.jpg&quot; alt=&quot;Open badges&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;/images/summit2013/crazyweb.jpg&quot;&gt;&lt;img src=&quot;/images/summit2013/crazyweb.jpg&quot; alt=&quot;Crazy web&quot; /&gt;&lt;/a&gt;
-Some baaaadges.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/summit2013/foxy.jpg&quot;&gt;&lt;img src=&quot;/images/summit2013/foxy.jpg&quot; alt=&quot;Foxy&quot; /&gt;&lt;/a&gt;
-FINALLY MET HIM.&lt;/p&gt;
-
-</description>
-				<pubDate>Tue, 08 Oct 2013  +0530</pubDate>
-				<link>http://schoewilliam.fr/2013/10/08/back-from-the-mozilla-summit.html</link>
-				<guid isPermaLink="true">http://schoewilliam.fr/2013/10/08/back-from-the-mozilla-summit.html</guid>
-			</item>
-		
-			<item>
-				<title>Mozilla Summit: one week left!</title>
-				
-                    <description>&lt;p&gt;As I &lt;a href=&quot;/2013/09/04/heading-to-mozilla-summit-brussels.html&quot;&gt;told earlier&lt;/a&gt;, I’ll be attending the Mozilla Summit 2013 in Brussels ! Very excited since it is only about days now until then.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/mozillasummit.png&quot; alt=&quot;Mozilla Summit 2013&quot; class=&quot;align right&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I just updated my &lt;a href=&quot;https://mozillians.org/en-US/u/schoewilliam/&quot;&gt;Mozillians.org profile&lt;/a&gt; with contact informations for you other Mozillians, and a bit about how I am involved with Mozilla (have a look at my face too, if you want to meet me there).&lt;/p&gt;
-
-&lt;p&gt;Also to be noticed that I will be one of the demoers of Firefox OS (at the &lt;em&gt;demo carts&lt;/em&gt;) on Saturday and Sunday of the Summit, hope to meet others who are as excited as I am about it ! :-D&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Photos, and posts coming !&lt;/em&gt;&lt;/p&gt;
-</description>
-				<pubDate>Wed, 25 Sep 2013  +0530</pubDate>
-				<link>http://schoewilliam.fr/2013/09/25/mozilla-summit-one-week-to-go.html</link>
-				<guid isPermaLink="true">http://schoewilliam.fr/2013/09/25/mozilla-summit-one-week-to-go.html</guid>
+				<pubDate>Tue, 15 Dec 2015 16:00:00 +0530</pubDate>
+				<link>http://schoewilliam.fr/2015/12/15/ruby-on-rails.html</link>
+				<guid isPermaLink="true">http://schoewilliam.fr/2015/12/15/ruby-on-rails.html</guid>
 			</item>
 		
 			<item>
@@ -331,21 +116,6 @@ FINALLY MET HIM.&lt;/p&gt;
 				<pubDate>Wed, 18 Sep 2013  +0530</pubDate>
 				<link>http://schoewilliam.fr/2013/09/18/clearer.html</link>
 				<guid isPermaLink="true">http://schoewilliam.fr/2013/09/18/clearer.html</guid>
-			</item>
-		
-			<item>
-				<title>Heading to the Mozilla Summit 2013</title>
-				
-                    <description>&lt;p&gt;&lt;img src=&quot;/images/mozillasummit.png&quot; alt=&quot;Mozilla Summit 2013&quot; class=&quot;align right&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Just passing by to announce that I will be attending to the &lt;a href=&quot;http://summit.mozilla.org/&quot;&gt;Mozilla Summit 2013&lt;/a&gt; in Brussels, next October. I’ll of course publish a series of posts and thoughts about the experience on this weblog :-D.&lt;/p&gt;
-
-&lt;p&gt;Needless to say that I am very excited, and that I had a great surprise when I got my invitation.&lt;br /&gt;
-&lt;em&gt;To anyone who will be attending too, see you there !&lt;/em&gt;&lt;/p&gt;
-</description>
-				<pubDate>Wed, 04 Sep 2013  +0530</pubDate>
-				<link>http://schoewilliam.fr/2013/09/04/heading-to-mozilla-summit-brussels.html</link>
-				<guid isPermaLink="true">http://schoewilliam.fr/2013/09/04/heading-to-mozilla-summit-brussels.html</guid>
 			</item>
 		
 	</channel>

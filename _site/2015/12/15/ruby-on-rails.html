@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+    
+	       Starting off with Ruby or Rails
+           - reify 
+    
+    </title>
+    
+    
+    <meta name="description" content="Open web enthusiast, non-writer writer, Iceland dreamer.">
+    
+    
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <link rel="alternate" type="application/rss+xml" title="Schoewilliam.fr RSS (FR posts)" href="/flux.xml">
+    <link rel="alternate" type="application/rss+xml" title="Schoewilliam.fr RSS (EN posts)" href="/feed.xml">
+
+    <meta name="author" content="William Dorffer aka. Schoewilliam">
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    
+    <style>
+        body:before {
+            background-image: url(/images/rails/rails.jpeg);
+            background-position: center center;
+            opacity: .4;
+        }
+    </style>
+    
+  </head>
+  
+  <body class="post">
+  
+    <header>
+        <div class="left">
+            <a onclick="document.querySelector('body > aside').classList.toggle('nav-shown'); document.querySelector('.menu').classList.toggle('shown');" class="menu"><span class="mega-octicon octicon-three-bars"></span></a>
+            
+            <a class="small-site-title" href="/en">Schoewilliam</a>
+            
+        </div>
+        <div class="right">
+            
+            
+            
+                <a class="active" href="/2015/12/15/ruby-on-rails.html">en</a>
+            
+                <a class="active" href="/about/">en</a>
+            
+                <a class="active" href="/projects/">en</a>
+            
+            <a title="Switch the lights ON/OFF" class="lights"><span class="mega-octicon octicon-light-bulb"></span></a>
+        </div>
+    </header>
+
+    <aside>
+        <div class="book-title">
+            
+                <h1>Starting off with Ruby or Rails</h1>
+            
+        </div>
+
+        <nav id="nav">
+    
+        <a href="/about">About</a>
+    
+        <a href="/projects">Projects</a>
+    
+        <a href="/en/archive">Blog</a>
+    
+        <a href="/about#contact">Contact</a>
+    
+</nav>
+
+
+        <nav id="prevnext">
+           
+                
+                    <a class="prev" title="Projects" href="/projects/">
+                        Previous post
+                    </a>
+                
+
+                
+           
+        </nav>
+    </aside>
+
+
+    <!-- Page content -->
+    <section>
+    <div class="post">
+        
+
+        <time datetime='15 December 2015' class="top">
+  
+  
+    15<sup>th
+    </sup> of
+  
+
+
+
+  December
+
+2015
+</time>
+        <h6 id="navigating-through-rails">Navigating through rails:</h6>
+
+<p>app folder - Where we do most of our work 
+Controllers are where the different options for each post are located.</p>
+
+<p>Views are where we implement what the pages will look like.</p>
+
+<p>config -&gt; root.rb -&gt; root to out controller and view</p>
+
+<p>changed the view.htmlerb file and get the new page.
+Yay !!
+^^Check steps above^^</p>
+
+<p>irb is the command you will use to get ruby running</p>
+
+<p>Basically a fancy editor 
+No need of compilation of ruby 
+It is probably interpreted line by line 
+Ruby is cross platform 
+Always try to make functions cross-platform as there are some differences in the syntax for win or for mac 
+Thus make sure you consider cross-platform dependencies Rails is just a framework 
+Ruby is Object Oriented 
+10th most popular language 
+can use heroku or github to host stuff
+Heroic may turn out to be expensive 
+GitHub is best 
+Jekyll is nice 
+Ruby packages are a pain in the ass</p>
+
+<p>rails generate controller name
+rails console 
+ |
+ |
+ |
+ |
+ V
+Inside the console 
+FUNCTIONS FOR POSTGRES DATABASE ELEMENTS</p>
+
+<p>new
+save -&gt; create is one way short-cut</p>
+
+<p>table.attribute = whatever
+table.save
+table.update_attribute(VAR, NEW VALUE )
+table.update_attributes(    )
+ALWAYS HAVE A : BEFORE A TABLE VAR AND A @ BEFORE A VAR IN HTML THAT USES RUBY !!</p>
+
+<p>Embedding Ruby in HTML isn’t pretty, but then again so isn’t PHP</p>
+
+<p>&lt;%= FOR SHOWING STUFF ON THE SCREEN %&gt;
+&lt;% FOR NOT SHOWING STUFF %&gt;</p>
+
+<p>@post = Post.find(params[:id])</p>
+
+<p>strftime() is kind of useful
+%b %d. %Y
+link_to post.title, post
+form_for 
+stylesheet_link_tag
+javascript_include_tag
+flash messages are run using key value pairs 
+^^They are important for us to</p>
+
+<p>AWS is used to put stuff on the net before heroku can actually find it 
+Don’t use filezilla if you don’t have your own site yet(hopefully soon ;))</p>
+
+<p>So next up something called scaffolding(from prior experience this is not going to be pretty)
+Kind of useful</p>
+
+<p>Active Admin is hard to use on newer versions of ruby 
+It doesn’t work well</p>
+
+<p>seed along with migrate</p>
+
+<p>“/….” match :to =&gt; “/::::::”</p>
+
+
+        <p style="text-align:right;">
+        
+        
+            <span style="float:right; margin-left:.25em;" class="mega-octicon octicon-tag"></span>
+            <a href="/en/archive#ruby">Ruby</a>.
+        
+        
+        </p>
+    </div>
+</section>
+
+
+    <script src="/js/nightmode.js" type="text/javascript"></script>
+    <script src="/js/smooth-scroll.js" type="text/javascript"></script>
+
+     <!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik.schoewilliam.fr/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//piwik.schoewilliam.fr/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+  </body>
+</html>
