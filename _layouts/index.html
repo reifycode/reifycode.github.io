@@ -5,7 +5,6 @@ bodyclass: home
 
 <section id="about">
     <div class="post">
-   {% if page.lang == 'en' %}
     {% for post in site.posts %}
         {% if post.permalink == "/about/" %}
             <h1>{{ post.title }}</h1>
@@ -21,29 +20,11 @@ bodyclass: home
             </ul>
         {% endif %}
     {% endfor %}
-   {% else %}
-    {% for post in site.posts %}
-        {% if post.permalink == "/a-propos/" %}
-            <h1>{{ post.title }}</h1>
-            <hr class="double small">
-            <div>{{ post.content | split:"<!--more-->" | first | markdownify }}</div>
-            <ul class="index">
-                <li>
-                    <a href="{{ post.url }}">
-                        <h2 class="more"><span class="mega-octicon octicon-plus"></span></h2>
-                        <time>Contact</time>
-                    </a>
-                </li>
-            </ul>
-        {% endif %}
-    {% endfor %}
-   {% endif %}
     </div>
 </section>
 
 <section id="projects">
     <div class="post">
-   {% if page.lang == 'en' %}
     {% for post in site.posts %}
         {% if post.permalink == "/projects/" %}
             <h1>{{ post.title }}</h1>
@@ -60,24 +41,6 @@ bodyclass: home
             </ul>
         {% endif %}
     {% endfor %}
-   {% else %}
-    {% for post in site.posts %}
-        {% if post.permalink == "/projets/" %}
-            <h1>{{ post.title }}</h1>
-            <hr class="double small">
-            <div>{{ post.content | split:"<!--more-->" | first | markdownify }}</div>
-
-            <ul class="index">
-                <li>
-                    <a href="{{ post.url }}#cssframework">
-                        <h2 class="more"><span class="mega-octicon octicon-plus"></span></h2>
-                        <time>Tous mes projets</time>
-                    </a>
-                </li>
-            </ul>
-        {% endif %}
-    {% endfor %}
-   {% endif %}
     </div>
 </section>
 
