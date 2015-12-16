@@ -7,7 +7,8 @@ author:
 - Shreyash Patodia
 - Pulkit Agarwal
 - Yash Karnawat
-description: Open web enth
+description: We are a group of Computer Science enthusiasts looking to find our way in the world of Computer Science.
+
 title: reify
 
 permalink: /:year/:month/:day/:title.html
@@ -18,7 +19,7 @@ gems:
 
 defaults:
     scope:
-      path: _posts/en
+      path: _posts
     values:
       lang: en
       layout: default
