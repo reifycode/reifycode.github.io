@@ -61,7 +61,7 @@
             {% assign altlang=site.posts | where:"date", page.date | sort: 'path' %}
             {% for post in altlang %}   
             {% endfor %}
-            <a title="{{ site.data.translations[page.lang].lights }}" class="lights"><span class="mega-octicon octicon-light-bulb"></span></a>
+            <a title="{{ site.data.translations.lights }}" class="lights"><span class="mega-octicon octicon-light-bulb"></span></a>
         </div>
     </header>
 
@@ -80,7 +80,7 @@
         <nav id="prevnext">
            {% unless page.bodyclass == "post" %}
               {% if page.navigation %}
-               <span class="thispage">{{ site.data.translations[page.lang].onthispage }}</span>
+               <span class="thispage">{{ site.data.translations.onthispage }}</span>
                 {% for link in page.navigation %}
                     <a data-scroll href="{{ link.url }}">{{ link.title }}</a>
                 {% endfor %}
