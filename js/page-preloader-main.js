@@ -48,7 +48,7 @@
 
 						var onEndHeaderAnimation = function(ev) {
 
-						document.getElementById( 'ip-logo' ).style.display = 'none';
+							document.getElementById( 'ip-logo' ).style.display = 'none';
 							if( support.animations ) {
 								if( ev.target !== header ) return;
 								this.removeEventListener( animEndEventName, onEndHeaderAnimation );
