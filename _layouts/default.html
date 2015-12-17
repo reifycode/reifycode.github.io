@@ -48,7 +48,10 @@
   
     <header>
         <div class="left">
-            <a onclick="document.querySelector('body > aside').classList.toggle('nav-shown'); document.querySelector('.menu').classList.toggle('shown');" class="menu"><span class="mega-octicon octicon-three-bars"></span></a>
+            <a onclick="document.querySelector('body > aside').classList.toggle('nav-shown'); document.querySelector('.menu').classList.toggle('shown');" class="menu">
+                <span class="mega-octicon octicon-three-bars">
+                </span>
+            </a>
             {% unless page.bodyclass == "home" %}
             <a class="small-site-title">reify</a>
             {% else %}
@@ -61,7 +64,13 @@
             {% assign altlang=site.posts | where:"date", page.date | sort: 'path' %}
             {% for post in altlang %}   
             {% endfor %}
-            <a title="{{ site.data.translations.lights }}" class="lights"><span class="mega-octicon octicon-light-bulb"></span></a>
+        <a title="{{ site.data.translations.lights }}" class="lights">
+                <span class="mega-octicon octicon-light-bulb">
+            </span>
+
+        </a>
+
+
         </div>
     </header>
 
@@ -69,7 +78,7 @@
     	<div id="bg-wrapper"></div>
         <div class="book-title">
             {% if page.bodyclass == "home" %}
-                <h1>reify</h1>
+            <object data="/images/logo.svg" type="image/svg+xml"></object>
             {% else %}
                 <h1>{{ page.title }}</h1>
             {% endif %}
