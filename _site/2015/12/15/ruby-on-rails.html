@@ -41,6 +41,27 @@
   </head>
   
   <body class="post">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" />
+<link rel="stylesheet" type="text/css" href="stylesheets/demo.css" />
+<link rel="stylesheet" type="text/css" href="stylesheets/effect.css" />
+<script src="js/modernizr.custom.js"></script>
+<div id="ip-container" class="ip-container">
+	<!-- initial header -->
+	<header class="ip-header">
+		<h1 class="ip-logo">
+			<embed src="images/logo.svg" id="ip-logo" type="image/svg+xml" class="ip-inner" width="75%" height="75%" viewBox="0 0 300 160" preserveAspectRatio="xMidYMin meet" aria-labelledby="logo_title"></embed>
+		</h1>
+		<div class="ip-loader">
+			<svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+				<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+				<path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+			</svg>
+		</div>
+	</header>
+</div><!-- /container -->
+<script src="js/classie.js"></script>
+<script src="js/pathLoader.js"></script>
+<script src="js/main.js"></script>
   
     <header>
         <div class="left">
@@ -133,7 +154,7 @@ Controllers are where the different options for each post are located.</p>
 Yay !!
 ^^Check steps above^^</p>
 
-<p>irb is the command you will use to get ruby running</p>
+<p>irb is the command you will use to get ruby running </p>
 
 <p>Basically a fancy editor 
 No need of compilation of ruby 
@@ -147,7 +168,7 @@ can use heroku or github to host stuff
 Heroic may turn out to be expensive 
 GitHub is best 
 Jekyll is nice 
-Ruby packages are a pain in the ass</p>
+Ruby packages are a pain in the ass </p>
 
 <p>rails generate controller name
 rails console 
@@ -168,7 +189,7 @@ table.update_attribute(VAR, NEW VALUE )
 table.update_attributes(    )
 ALWAYS HAVE A : BEFORE A TABLE VAR AND A @ BEFORE A VAR IN HTML THAT USES RUBY !!</p>
 
-<p>Embedding Ruby in HTML isn’t pretty, but then again so isn’t PHP</p>
+<p>Embedding Ruby in HTML isn’t pretty, but then again so isn’t PHP </p>
 
 <p>&lt;%= FOR SHOWING STUFF ON THE SCREEN %&gt;
 &lt;% FOR NOT SHOWING STUFF %&gt;</p>
@@ -182,7 +203,7 @@ form_for
 stylesheet_link_tag
 javascript_include_tag
 flash messages are run using key value pairs 
-^^They are important for us to</p>
+^^They are important for us to </p>
 
 <p>AWS is used to put stuff on the net before heroku can actually find it 
 Don’t use filezilla if you don’t have your own site yet(hopefully soon ;))</p>
