@@ -45,7 +45,7 @@
   </head>
   
   <body {% if page.bodyclass %}class="{{ page.bodyclass }}"{% endif %}>
-    {% include page-preloader.html %}
+    {% if page.bodyclass == "home" %}{% include page-preloader.html %}{% endif   %}
   
     <header>
         <div class="left">
