@@ -11,4 +11,7 @@ weblog:
 contact:
   title: "Contact"
   url:   "/about#contact"
+progress:
+  title: "Our Progress"
+  url: "/progress/"  
 
