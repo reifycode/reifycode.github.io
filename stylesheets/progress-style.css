@@ -10,10 +10,10 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 5%;
-  font-size: 85%;
+  font-size: 75%;
   font-family: "Noto Sans", sans-serif;
   color: #eee9dc;
-  background: #11113A;
+  background: #153f65;
 }
 
 h2 {
@@ -87,7 +87,7 @@ h2 {
   margin-top: -20px;
 }
 .content:after {
-  border-right-color: #48b379;
+  border-right-color: #153f65;
   border-width: 17px;
   top: 50%;
   margin-top: -17px;
@@ -173,7 +173,7 @@ label {
     margin-left: -17px;
   }
   .content:after {
-    border-bottom-color: #48b379;
+    border-bottom-color: #;
     border-width: 20px;
     top: -20px;
     left: 50px;
@@ -187,5 +187,17 @@ label {
   .circle, .date {
     display: none;
   }
+}
+opener {
+     margin-top: -10px;
+  top: 50%;
+  left: -44px;
+  width: 10px;
+  height: 10px;
+  background: #48b379;
+  border: 5px solid #eee9dc;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
 }
 

@@ -18,7 +18,7 @@ bodyclass: post
         {% if page.categories %}
         {% for category in page.categories %}
             {% if forloop.first %}<span style="float:right; margin-left:.25em;" class="mega-octicon octicon-tag"></span>{% endif %}
-            <a href="archive#{{ category | remove:' ' }}">{{ category | capitalize }}</a>{% unless forloop.last %}, {% else %}.{% endunless %}
+            <a href="/archive#{{ category | remove:' ' }}">{{ category | capitalize }}</a>{% unless forloop.last %}, {% else %}.{% endunless %}
         {% endfor %}
         {% endif %}
         </p>
