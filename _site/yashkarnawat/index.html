@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>
     
-	       Whoops!
+	       Yash Karnawat
             - reify 
     
     </title>
@@ -22,7 +22,7 @@
     
   </head>
   
-  <body class="page">
+  <body class="archive">
     
   
     <header>
@@ -37,6 +37,16 @@
         </div>
         <div class="right">
             
+
+<select class="custom light" name="Catégories" onchange="location = this.options[this.selectedIndex].value;">
+    <option value="#" selected="selected">Categories</option>
+    
+        <option value="#ruby">Ruby</option>
+    
+        <option value="#webdesign">Web design</option>
+    
+</select>
+
             
                
                
@@ -62,7 +72,7 @@
     	<div id="bg-wrapper"></div>
         <div class="book-title">
             
-                <h1>Whoops!</h1>
+                <h1>Yash Karnawat</h1>
             
         </div>
 
@@ -84,19 +94,125 @@
         <nav id="prevnext">
            
               
+               <span class="thispage">On this page</span>
+                
+                    <a data-scroll href="#allposts">All Posts</a>
+                
+                    <a data-scroll href="#categories">Categories</a>
+                
+              
            
         </nav>
     </aside>
 
 
     <!-- Page content -->
-    <section>
-    <div class="post">
-        <p>This page must have been removed or had its name changed.</p>
+    <section id="allposts">
+    <div>
+        <ul class="index">
+            
+            
+            <li>
+            <a href="/progress">
+                    <h2>Our Progress</h2>
+                    <time datetime='2015-12-18'>
+  
+    18<sup>th
+    </sup> of
 
-<p><img style="margin-bottom: -4.5em;" src="/images/loading.gif" alt="Ponies'll help ya" /></p>
+December
+2015
+</time>
 
+             </a>
+            </li>
+            
+            <li>
+            <a href="/2015/12/15/ruby-on-rails.html">
+                    <h2>Starting off with Ruby on Rails</h2>
+                    <time datetime='2015-12-15'>
+  
+    15<sup>th
+    </sup> of
+
+December
+2015
+</time>
+
+             </a>
+            </li>
+            
+            <li>
+            <a href="/2013/09/18/clearer.html">
+                    <h2>Clearer.</h2>
+                    <time datetime='2013-09-18'>
+  
+    18<sup>th
+    </sup> of
+
+September
+2013
+</time>
+
+             </a>
+            </li>
+            
+        </ul>
     </div>
+</section>
+
+
+<section id="categories">
+   
+   
+        <div class="catbloc" id="ruby">
+            <hr class="large title">
+            <h1>ruby</h1>
+
+            <ul class="index">
+              
+                
+                
+                
+              
+                
+                
+                <li>
+                    <a href="/2015/12/15/ruby-on-rails.html">
+                    <h2>Starting off with Ruby on Rails </h2>
+                    <time class="top" datetime='2015-12-15'>15 December 2015</time>
+                    </a>
+                </li>
+                
+                
+              
+            </ul>
+        </div>
+   
+        <div class="catbloc" id="webdesign">
+            <hr class="large title">
+            <h1>web design</h1>
+
+            <ul class="index">
+              
+                
+                
+                
+              
+                
+                
+                <li>
+                    <a href="/2013/09/18/clearer.html">
+                    <h2>Clearer. </h2>
+                    <time class="top" datetime='2013-09-18'>18 September 2013</time>
+                    </a>
+                </li>
+                
+                
+              
+            </ul>
+        </div>
+   
 </section>
 
     <script>
