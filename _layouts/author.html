@@ -4,8 +4,9 @@ bodyclass: author
 ---
 
 <section id="about">
-    <div>
+    <div style="text-align:center;">
         {% assign author = site.data.authors[page.author] %}
+        <div><img src={{ author.avatar }} style="border-radius:50%; float:none; width:200px; height:200px; display: block; margin:auto;"> </img></div>
         {{ author.description }}
     </div>
 </section>
