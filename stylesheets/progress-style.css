@@ -5,6 +5,7 @@
 /* -------------------------------------
  * General Style
  * ------------------------------------- */
+@import url(fonts/octicons/octicons.css); 
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
 body {
   max-width: 1200px;
@@ -14,6 +15,15 @@ body {
   font-family: "Noto Sans", sans-serif;
   color: #eee9dc;
   background: #153f65;
+}
+
+.social.github .mega-octicon {
+    font-size: 26px;
+    vertical-align: right;
+}
+.align.left {
+  float: left;
+  margin: 10px 30px 10px 0;
 }
 
 h2 {
@@ -200,4 +210,15 @@ opener {
   display: block;
   position: absolute;
 }
+body > header .menu {
+    color: #fff;
+    float: right;
+}
+body > header .menu.shown {
+    -webkit-transform: scale(.75);
+        -ms-transform: scale(.75);
+            transform: scale(.75);
+    opacity: .8;
+}
+
 
