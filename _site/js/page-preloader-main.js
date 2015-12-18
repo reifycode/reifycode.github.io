@@ -36,11 +36,15 @@
 		var simulationFn = function(instance) {
 			var progress = 0,
 				maxProgressFlag = 0.95,
+				multiplier = 0.01, //percentage completed
 				interval = setInterval( function() {
 
-					progress = Math.min( progress + Math.random() * 0.1, maxProgressFlag );
+					progress = Math.min( progress + Math.random() * multiplier, maxProgressFlag );
 
-					if(/loaded|complete/.test(document.readyState)) {maxProgressFlag = 1;}
+					if(/loaded|complete/.test(document.readyState)) {
+						maxProgressFlag = 1;
+						multiplier =0.1;
+					}
 					
 					instance.setProgress( progress );
 
