@@ -6,10 +6,48 @@ bodyclass: author
 <section id="about">
     <div style="text-align:center;">
         {% assign author = site.data.authors[page.author] %}
-        <div><img src={{ author.avatar }} style="border-radius:50%; float:none; width:200px; height:200px; display: block; margin:auto;"> </img></div>
-        {{ author.description }}
+        <div>
+            <img src={{ author.avatar }} style="border-radius:50%; float:none; width:200px; height:200px; display: block; margin:auto;"> 
+            </img>
+        </div>
+        <div style="margin:10px;">
+            {% for property in author %}
+                {% case property[0] %}
+                    {% when "description" %}
+                    {% when "name" %}
+                    {% when "avatar" %}
+                    {% when "email" %}
+                        <span>
+                            <a href="mailto:{{ property[1] }}">
+                                <img class="icon" src="/images/layout/png/{{property[0]}}.png"></img>
+                            </a>
+                        </span>
+                    {% else %}
+                        <span>
+                            <a href="{{ property[1] }}">
+                                <img class="icon" src="/images/layout/png/{{property[0]}}.png"></img>
+                            </a>
+                        </span>
+                {% endcase %}
+            {% endfor %}
+        </div>
+        <div>
+            {{ author.description }}
+        </div>
     </div>
 </section>
+
+<style>
+.icon {
+   -webkit-filter: invert(1);
+           filter: invert(1);
+}
+
+.dark .icon {
+   -webkit-filter: none;
+           filter: none;
+}
+</style>
 
 <section id="allposts">
     <div>
