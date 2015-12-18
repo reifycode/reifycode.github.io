@@ -35,9 +35,13 @@
 		// simulate loading something..
 		var simulationFn = function(instance) {
 			var progress = 0,
+				maxProgressFlag = 0.95,
 				interval = setInterval( function() {
-					progress = Math.min( progress + Math.random() * 0.1, 1 );
 
+					progress = Math.min( progress + Math.random() * 0.1, maxProgressFlag );
+
+					if(/loaded|complete/.test(document.readyState)) {maxProgressFlag = 1;}
+					
 					instance.setProgress( progress );
 
 					// reached the end
