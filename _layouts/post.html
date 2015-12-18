@@ -8,8 +8,9 @@ bodyclass: post
             <h1><a target=_blank href="{{ page.link | escape }}">{{ page.title }}</a>&nbsp;<span class="oi" data-glyph="external-link" style="font-size:50%;"></span></h1>
             <hr class="double small">
         {% endif %}
-        
+
         {% if page.author %} {% include author.html %} {% endif %}
+        
         <time datetime='{{ page.date | date: "%-d %B %Y" }}' class="top">{% include date.html date=page.date %}</time>
         {{ content }}
 
