@@ -1,5 +1,5 @@
 {% assign author = site.data.authors[page.author] %}
 {% if author %}
 	<span> <img src={{ author.avatar }} class="avatar" style="float:left; width:30px; height:30px; margin-left:0;"> </img></span>
-    <span>&nbsp; by <a href="#" target="_blank">{{ author.name }}</a></span>
+    <span>&nbsp; by <a href="/{{ page.author }}">{{ author.name }}</a></span>
 {% endif %}
