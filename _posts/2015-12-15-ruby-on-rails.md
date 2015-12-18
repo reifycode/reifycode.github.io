@@ -2,11 +2,10 @@
 layout: post
 published: true
 exacttime: "16:00:00"
-title: "Starting off with Ruby or Rails"
+title: "Starting off with Ruby on Rails"
 category: "Ruby"
 headimg_url: "/images/rails/rails.png"
-headimg_lic: "By MichaelMaggs (Own work) [CC BY-SA 3.0], via Wikimedia Commons"
-headimg_lic_url: "http://commons.wikimedia.org/wiki/File%3ACello_study.jpg"
+author: shreyashpatodia
 ---
 ###### Navigating through rails:
 
