@@ -100,13 +100,12 @@
     <section id="allposts">
     <div>
         <ul class="index">
-
             
              
             
              
             
-            <li class="allauthors shreyashpatodia">
+            <li class="no-display shreyashpatodia">
             <a href="/2015/12/15/ruby-on-rails.html">
                     <h2>Starting off with Ruby on Rails</h2>
                     <time datetime='2015-12-15'>
@@ -128,7 +127,6 @@ December
     </div>
 </section>
 
-
 <section id="categories">
    
    
@@ -145,7 +143,7 @@ December
                  
                 
                 
-                <li class="allauthors shreyashpatodia">
+                <li class="no-display shreyashpatodia">
                     <a href="/2015/12/15/ruby-on-rails.html">
                     <h2>Starting off with Ruby on Rails </h2>
                     <time class="top" datetime='2015-12-15'>15 December 2015</time>
@@ -179,14 +177,8 @@ December
    
 </section>
 
-
-<script type="text/javascript">
-    console.log("thepulkitagarwal" == "shreyashpatodia");
-    var elements = document.getElementsByClassName("thepulkitagarwal");
-    alert(elements.length);
-</script>
 <style type="text/css">
-    .allauthors {
+    .no-display {
         display: none;
     }
 
@@ -195,6 +187,28 @@ December
     }
 </style>
 
+<script type="text/javascript">
+    if(document.getElementById("allposts").getElementsByClassName("thepulkitagarwal").length == 0) {
+        document.getElementById("allposts").innerHTML = "<div><h1>No Posts Yet!</h1></div>";
+    }
+
+    if(document.getElementById("categories").getElementsByClassName("thepulkitagarwal").length == 0) {
+        document.getElementById("categories").className = "no-display";
+    }
+
+    
+    
+        if(document.getElementById("ruby")
+            .getElementsByClassName("thepulkitagarwal").length == 0) {
+            document.getElementById("ruby").className = "no-display";
+        }
+    
+        if(document.getElementById("webdesign")
+            .getElementsByClassName("thepulkitagarwal").length == 0) {
+            document.getElementById("webdesign").className = "no-display";
+        }
+    
+</script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

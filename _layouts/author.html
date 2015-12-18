@@ -6,11 +6,10 @@ bodyclass: author
 <section id="allposts">
     <div>
         <ul class="index">
-
             {% assign posts=site.posts | where:"lang", page.lang | where:"type", posts %}
             {% for post in posts %} 
             {% if post.author %}
-            <li class="allauthors {{ post.author }}">
+            <li class="no-display {{ post.author }}">
             <a href="{{ post.url }}">
                     <h2>{{ post.title | replace: '<br>', '' }}</h2>
                     <time datetime='{{ post.date | date: "%Y-%m-%d" }}'>{% include date.html date=post.date %}</time>
@@ -22,7 +21,6 @@ bodyclass: author
         </ul>
     </div>
 </section>
-
 
 <section id="categories">
    {% assign sortedcats = site.categories | sort %}
@@ -36,7 +34,7 @@ bodyclass: author
                 {% for post in posts %} 
                 {% if post.url %}
                 {% if post.author %}
-                <li class="allauthors {{ post.author }}">
+                <li class="no-display {{ post.author }}">
                     <a href="{{ post.url }}">
                     <h2>{{ post.title | replace: '<br>', '' }} {% if post.link %}<span class="oi" data-glyph="external-link" style="color:#888; font-size:50%;"></span>{% endif %}</h2>
                     <time class="top" datetime='{{ post.date | date: "%Y-%m-%d" }}'>{{ post.date | date: "%-d %B %Y" }}</time>
@@ -51,14 +49,8 @@ bodyclass: author
    {% endfor %}
 </section>
 
-
-<script type="text/javascript">
-    console.log("{{ page.url | replace:'/', '' }}" == "shreyashpatodia");
-    var elements = document.getElementsByClassName("{{ page.url | replace:'/', '' }}");
-    alert(elements.length);
-</script>
 <style type="text/css">
-    .allauthors {
+    .no-display {
         display: none;
     }
 
@@ -66,3 +58,21 @@ bodyclass: author
         display: inherit;
     }
 </style>
+
+<script type="text/javascript">
+    if(document.getElementById("allposts").getElementsByClassName("{{ page.url | replace:'/', '' }}").length == 0) {
+        document.getElementById("allposts").innerHTML = "<div><h1>No Posts Yet!</h1></div>";
+    }
+
+    if(document.getElementById("categories").getElementsByClassName("{{ page.url | replace:'/', '' }}").length == 0) {
+        document.getElementById("categories").className = "no-display";
+    }
+
+    {% assign sortedcats = site.categories | sort %}
+    {% for category in sortedcats %}
+        if(document.getElementById("{{ category | first | remove:' ' }}")
+            .getElementsByClassName("{{ page.url | replace:'/', '' }}").length == 0) {
+            document.getElementById("{{ category | first | remove:' ' }}").className = "no-display";
+        }
+    {% endfor %}
+</script>
