@@ -96,17 +96,7 @@
                 {% endfor %}
               {% endif %}
            {% else %}
-                {% if page.previous %}
-                    <a class="prev" title="{{ page.previous.title }}" href="{{ page.previous.url }}">
-                        {{ site.data.translations.previouspost }}
-                    </a>
-                {% endif %}
-
-                {% if page.next %}
-                    <a class="next" title="{{ page.next.title }}" href="{{ page.next.url }}">
-                        {{ site.data.translations.nextpost }}
-                    </a>
-                {% endif %}
+                <a  href="/archive">All Posts</a>
            {% endunless %}
         </nav>
     </aside>

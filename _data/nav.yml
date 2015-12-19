@@ -10,8 +10,5 @@ weblog:
   url:   "/archive"
 contact:
   title: "Contact"
-  url:   "/about#contact"
-progress:
-  title: "Our Progress"
-  url: "/progress/"  
+  url:   "/about#contact" 
 
