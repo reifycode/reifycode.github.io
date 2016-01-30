@@ -10,5 +10,8 @@ author: shreyashpatodia
 
 Greetings everyone !!
 
-So this is going to be a really short post on face detection using OpenCV
-(CV:Computer Vision). So basically OpenCV is a open library that provides a developer access to tools for basic applicatins of computer vision. 
+This is going to be a really short post on face detection using [OpenCV](http://opencv.org/)(CV:Computer Vision)]. Sp OpenCV is bsically an open library that provides tools that facilitate for the creation of computer vision based applications efficiently. The applications can be of varying complexities, ranging from simple built-in face detection in an image or a video using the [Viola-Jones Object Detection Framework](https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework) or training the [Haar Classifiers](https://en.wikipedia.org/wiki/Haar-like_features) to recognize a custom object. 
+
+{% gist ShreyashPatodia/c59855288561c758445b %}
+
+Yup that's it. This program that I've got here is pretty basic and doesn't do much. I've been playing around with OpenCV recently so expect posts on it soon(hopefully).
