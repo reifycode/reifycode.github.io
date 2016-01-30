@@ -16,4 +16,4 @@ So without further ado, here's the program:
 
 {% gist ShreyashPatodia/c59855288561c758445b %}
 
-Yup that's it. This program that I've got here is pretty basic and doesn't do much. I've been playing around with OpenCV recently so expect posts on it soon(hopefully).  
+Yup that's it. This program that I've got here is pretty basic and doesn't do much. I've been playing around with OpenCV recently so expect posts on it soon(hopefully).
