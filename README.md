@@ -6,7 +6,7 @@ Please be sure to check the website out.
 
 If you have anything to say please contact us at:
 
-Shreyash Patodia: [patodiashreyash@gmail.com](patodiashreyash32@gmail.com)
+Shreyash Patodia: <patodiashreyash@gmail.com>
 
-Pulkit Agarwal: [thepulkitagarwal@gmail.com](thepulkitagarwal@gmail.com)
+Pulkit Agarwal: <thepulkitagarwal@gmail.com>
 
