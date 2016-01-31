@@ -7,6 +7,12 @@ category: "ubuntu"
 author: thepulkitagarwal
 ---
 
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">[1/2] apt-get update was showing errors, and on trying to fix it, I broke a lot of other stuff, and ended up reinstalling ubuntu. Twice.</p>&mdash; Pulkit Agarwal (@thepulkit13) <a href="https://twitter.com/thepulkit13/status/693835918168322048">January 31, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">[2/2] Finally found out that nothing was wrong with me, but there is a bug in apt-get. And there&#39;s a way around it: <a href="https://t.co/uxDuomZFPh">https://t.co/uxDuomZFPh</a></p>&mdash; Pulkit Agarwal (@thepulkit13) <a href="https://twitter.com/thepulkit13/status/693836337368051712">January 31, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 `E:Unable to Locate Package `
 
 `W: Failed to fetch bzip2:/var/lib/apt/lists/partial/in.archive.ubuntu.com_ubuntu_dists_trusty-backports_main_i18n_Translation-en  Hash Sum mismatch`
