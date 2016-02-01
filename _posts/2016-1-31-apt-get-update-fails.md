@@ -4,6 +4,7 @@ published: true
 exacttime: "12:05:00"
 title: "apt-get update fails"
 category: "ubuntu"
+headimg_url: "/images/ubuntu/ubuntu.jpg"
 author: thepulkitagarwal
 ---
 
