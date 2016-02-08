@@ -12,7 +12,7 @@ author: thepulkitagarwal
 
 Nmap (or Network Mapper) is a security scanner, that is used to discover hosts and services on a computer network. This means that you can use it to discover open ports on your own computer, or someone else's computer which is on your network.
 
-Open ports on your computer are a major security concern - they are one of the widely used ways to gain access to your computer. In fact, the only way your computer can connect to the outside world (read: the internet) is through an open port. 
+Open ports on your computer are a major security concern - they are one of the most used ways to gain access to your computer. In fact, the only way your computer can connect to the outside world (read: the internet) is through an open port.
 
 You can check the open ports on your computer by first installing nmap, and then running: `nmap localhost`
 
@@ -24,7 +24,7 @@ for each of the services, with the correct name instead of 'nameOfService'. But,
 
 `sudo update-rc.d -f nameOfService remove`
 
-I thought this would work fine. And it does work fine for a lot of seervices. But for many others (like MySQL), this doesn't work properly. Using [this answer from the Ask Ubuntu Forums](https://askubuntu.com/questions/40072/how-to-stop-apache2-mysql-from-starting-automatically-as-computer-starts/40077#40077) as reference, I did:
+I thought this would work fine. And it does work fine for a lot of services. But for many others (like MySQL), this doesn't work properly. Using [this answer from the Ask Ubuntu Forums](https://askubuntu.com/questions/40072/how-to-stop-apache2-mysql-from-starting-automatically-as-computer-starts/40077#40077) as reference, I did:
 
 `sudo echo "manual" >> /etc/init/nameOfService.override`
 
