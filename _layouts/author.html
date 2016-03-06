@@ -14,6 +14,7 @@ bodyclass: author
             {% for property in author %}
                 {% case property[0] %}
                     {% when "description" %}
+                    {% when "extendedDescription" %}
                     {% when "name" %}
                     {% when "avatar" %}
                     {% when "email" %}
@@ -32,7 +33,11 @@ bodyclass: author
             {% endfor %}
         </div>
         <div>
-            {{ author.description }}
+            {{ author.description | markdownify }}
+
+            {% if author.extendedDescription %}
+                {{ author.extendedDescription | markdownify }}
+            {% endif %}
         </div>
     </div>
 </section>

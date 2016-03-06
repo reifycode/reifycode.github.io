@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>
     
-	       Can you get there ??
+	       Using Nmap for Your Own Security
             - reify 
     
     </title>
@@ -32,7 +32,7 @@
             top: 0; left: 0;
             width: 100%;
             height: 100%;
-            background: url(/images/cygt.png) left center / cover #222;
+            background: url(/images/ubuntu/ubuntu.jpg) left center / cover #222;
             z-index: -1;
             opacity: .4;
         }
@@ -72,7 +72,7 @@
     	<div id="bg-wrapper"></div>
         <div class="book-title">
             
-                <h1>Can you get there ??</h1>
+                <h1>Using Nmap for Your Own Security</h1>
             
         </div>
 
@@ -104,47 +104,54 @@
 
          
 
-	<span> <img src=/images/layout/photos/shreyash.png class="avatar" style="float:left; width:30px; height:30px; margin-left:0;"> </img></span>
-    <span>&nbsp; by <a href="/shreyashpatodia">Shreyash Patodia</a></span>
+	<span> <img src=/images/layout/photos/pulkit.png class="avatar" style="float:left; width:30px; height:30px; margin-left:0;"> </img></span>
+    <span>&nbsp; by <a href="/thepulkitagarwal">Pulkit Agarwal</a></span>
  
         
-        <time datetime='1 January 2016' class="top">
+        <time datetime='8 February 2016' class="top">
   
-    1<sup>st
-      </sup> of
+    8<sup>th
+    </sup> of
 
-January
+February
 2016
 </time>
-        <p>Greetings everyone !! </p>
+        <p>Nmap (or Network Mapper) is a security scanner, that is used to discover hosts and services on a computer network. This means that you can use it to discover open ports on your own computer, or someone else’s computer which is on your network.</p>
 
-<p>I hope you have been keeping well and enjoyed your New Year celebrations. As the new year brings new beginnings, we at Reify wanted to start off a blog in an attempt to document our crusades through the world of Computer Science. So here is my first post:</p>
+<p>Open ports on your computer are a major security concern - they are one of the most used ways to gain access to your computer. In fact, the only way your computer can connect to the outside world (read: the internet) is through an open port.</p>
 
-<p>What I want to address in this piece is a combination of things, A quick introduction to the <a href="https://unity3d.com/">Unity - Game Engine</a> and a quick walk-through the development process of a game that I built using Unity. </p>
+<p>You can check the open ports on your computer by first installing nmap, and then running: <code>nmap localhost</code></p>
 
-<p>If you don’t already know about Unity, it is an awesome engine that allows you to develop multi-platform games. You can check out it’s website <a href="https://unity3d.com/">here</a>. [<em>Note: The tutorials on the official website are awesome !!</em>]. You can use <a href="https://en.wikipedia.org/wiki/List_of_CLI_languages">CLI Languages</a> like C#, Boo or Javascript(<em>which is not really a CLI Language but the version used by Unity is</em>) for the scripts in your game. Unity makes it very simple to add the animations, shapes, textures, audio or any other elements that you need to make your game amazing. It is also possible to make applications that serve a different purpose from being games on Unity, although it is a total over-kill and would probalby lead to very battery-hungry applications. So if you are at all interested in game development, Unity is a godsend and you should definitely check it out. Even if you aren’t do check out Unity.  </p>
+<p>Recently I installed something on Ubuntu, and that just happened to open a couple of random ports. As I didn’t require it as such, I used the command:</p>
 
-<p>Moving on to the game I made(<em>I’m calling it ‘Can you get there ??’ for now</em>). It is a very basic game wherein the user attempts to navigate through a maze, dodging enemies while battling against the clock in order to get home. I got the idea for the game from an <a href="https://www.youtube.com/user/AwfulMedia">AwfulMedia</a> tutorial(<em>Note: The tutorials by AwfulMedia for this game use Unity version 4.x while the latest version for Unity at the time of writing of the article is 5.3, so it may be advisable to do the scripting yourself as there are a few syntactical differences between v4.0 and v5.0</em>). I use C# for scripting purposes but using JS or Boo should not alter the difficulty of developing the game. I would say building a working version of the game where you can actually play it is not hard at all but getting the GUI elements in and tying them together to the game to have seamless transitions is. I will link the repository to the game at the end of the article. </p>
+<p><code>sudo service nameOfService stop</code> </p>
 
-<p>Features of the game:</p>
+<p>for each of the services, with the correct name instead of ‘nameOfService’. But, as I found out later, this was only a temporary solution. A quick Google search showed that I needed to modify some config file so that it didn’t start again on boot. This was the command I used:</p>
 
-<ul>
-  <li>Two complete levels.</li>
-  <li>A Main Menu to help navigate through the game.</li>
-  <li>A world that allows for easy navigation to the levels and the main menu (<em>credits: <a href="https://www.youtube.com/user/AwfulMedia">AwfulMedia</a></em>).</li>
-</ul>
+<p><code>sudo update-rc.d -f nameOfService remove</code></p>
 
-<p>I think that’s going to be all for my first post, <a href="https://github.com/ShreyashPatodia/Can-You-Get-There">here</a> is a link to the repository.</p>
+<p>I thought this would work fine. And it does work fine for a lot of services. But for many others (like MySQL), this doesn’t work properly. Using <a href="https://askubuntu.com/questions/40072/how-to-stop-apache2-mysql-from-starting-automatically-as-computer-starts/40077#40077">this answer from the Ask Ubuntu Forums</a> as reference, I did:</p>
 
-<p>P.S Everything that is related to the development of the game is in the Assets folder and you can open it up in Unity to check out all that I used.</p>
+<p><code>sudo echo "manual" &gt;&gt; /etc/init/nameOfService.override</code></p>
 
+<p>This command is used to stop Upstart from automatically starting something. Upstart is something that basically starts and stops tasks and services in Ubuntu. Read more about <a href="http://upstart.ubuntu.com/cookbook/#disabling-a-job-from-automatically-starting">the section “Disabling a Job from Automatically Starting” in the Upstart Cookbook</a>.</p>
+
+<p>In case you get a bash permissions error in the last step, try the following:</p>
+
+<p><code>cd /etc/init/</code>
+<code>sudo gedit nameOfService.override</code></p>
+
+<p>And in the gedit text editor that opens, type “manual” (without the quotes), and save. You can use any text editor that you want instead (like subl for sublime text and so on).</p>
 
 
         <p style="text-align:right;">
         
         
             <span style="float:right; margin-left:.25em;" class="mega-octicon octicon-tag"></span>
-            <a href="/archive#unity-gameengine">Unity - game engine</a>.
+            <a href="/archive#ubuntu">Ubuntu</a>, 
+        
+            
+            <a href="/archive#security">Security</a>.
         
         
         </p>

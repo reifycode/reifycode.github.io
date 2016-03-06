@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>
     
-	       Can you get there ??
+	       apt-get update fails
             - reify 
     
     </title>
@@ -32,7 +32,7 @@
             top: 0; left: 0;
             width: 100%;
             height: 100%;
-            background: url(/images/cygt.png) left center / cover #222;
+            background: url(/images/ubuntu/ubuntu.jpg) left center / cover #222;
             z-index: -1;
             opacity: .4;
         }
@@ -72,7 +72,7 @@
     	<div id="bg-wrapper"></div>
         <div class="book-title">
             
-                <h1>Can you get there ??</h1>
+                <h1>apt-get update fails</h1>
             
         </div>
 
@@ -104,47 +104,44 @@
 
          
 
-	<span> <img src=/images/layout/photos/shreyash.png class="avatar" style="float:left; width:30px; height:30px; margin-left:0;"> </img></span>
-    <span>&nbsp; by <a href="/shreyashpatodia">Shreyash Patodia</a></span>
+	<span> <img src=/images/layout/photos/pulkit.png class="avatar" style="float:left; width:30px; height:30px; margin-left:0;"> </img></span>
+    <span>&nbsp; by <a href="/thepulkitagarwal">Pulkit Agarwal</a></span>
  
         
-        <time datetime='1 January 2016' class="top">
+        <time datetime='31 January 2016' class="top">
   
-    1<sup>st
+    31<sup>st
       </sup> of
 
 January
 2016
 </time>
-        <p>Greetings everyone !! </p>
+        <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">[1/2] apt-get update was showing errors, and on trying to fix it, I broke a lot of other stuff, and ended up reinstalling ubuntu. Twice.</p>&mdash; Pulkit Agarwal (@thepulkit13) <a href="https://twitter.com/thepulkit13/status/693835918168322048">January 31, 2016</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<p>I hope you have been keeping well and enjoyed your New Year celebrations. As the new year brings new beginnings, we at Reify wanted to start off a blog in an attempt to document our crusades through the world of Computer Science. So here is my first post:</p>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">[2/2] Finally found out that nothing was wrong with me, but there is a bug in apt-get. And there&#39;s a way around it: <a href="https://t.co/uxDuomZFPh">https://t.co/uxDuomZFPh</a></p>&mdash; Pulkit Agarwal (@thepulkit13) <a href="https://twitter.com/thepulkit13/status/693836337368051712">January 31, 2016</a></blockquote>
+<script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<p>What I want to address in this piece is a combination of things, A quick introduction to the <a href="https://unity3d.com/">Unity - Game Engine</a> and a quick walk-through the development process of a game that I built using Unity. </p>
+<p><code>E:Unable to Locate Package </code></p>
 
-<p>If you don’t already know about Unity, it is an awesome engine that allows you to develop multi-platform games. You can check out it’s website <a href="https://unity3d.com/">here</a>. [<em>Note: The tutorials on the official website are awesome !!</em>]. You can use <a href="https://en.wikipedia.org/wiki/List_of_CLI_languages">CLI Languages</a> like C#, Boo or Javascript(<em>which is not really a CLI Language but the version used by Unity is</em>) for the scripts in your game. Unity makes it very simple to add the animations, shapes, textures, audio or any other elements that you need to make your game amazing. It is also possible to make applications that serve a different purpose from being games on Unity, although it is a total over-kill and would probalby lead to very battery-hungry applications. So if you are at all interested in game development, Unity is a godsend and you should definitely check it out. Even if you aren’t do check out Unity.  </p>
+<p><code>W: Failed to fetch bzip2:/var/lib/apt/lists/partial/in.archive.ubuntu.com_ubuntu_dists_trusty-backports_main_i18n_Translation-en  Hash Sum mismatch</code></p>
 
-<p>Moving on to the game I made(<em>I’m calling it ‘Can you get there ??’ for now</em>). It is a very basic game wherein the user attempts to navigate through a maze, dodging enemies while battling against the clock in order to get home. I got the idea for the game from an <a href="https://www.youtube.com/user/AwfulMedia">AwfulMedia</a> tutorial(<em>Note: The tutorials by AwfulMedia for this game use Unity version 4.x while the latest version for Unity at the time of writing of the article is 5.3, so it may be advisable to do the scripting yourself as there are a few syntactical differences between v4.0 and v5.0</em>). I use C# for scripting purposes but using JS or Boo should not alter the difficulty of developing the game. I would say building a working version of the game where you can actually play it is not hard at all but getting the GUI elements in and tying them together to the game to have seamless transitions is. I will link the repository to the game at the end of the article. </p>
+<p><code>E: Some index files failed to download. They have been ignored, or old ones used instead.</code></p>
 
-<p>Features of the game:</p>
+<p><code>Failed to fetch http://archive.ubuntu.com/ubuntu/dists/trusty/Release  Unable to find expected entry 'universe/binary-amd64/Packages' in Release file (Wrong sources.list entry or malformed file)</code></p>
 
-<ul>
-  <li>Two complete levels.</li>
-  <li>A Main Menu to help navigate through the game.</li>
-  <li>A world that allows for easy navigation to the levels and the main menu (<em>credits: <a href="https://www.youtube.com/user/AwfulMedia">AwfulMedia</a></em>).</li>
-</ul>
+<p>These errors, and a lot of others cause a lot of problems for a lot of people. For example, mysql, node and a lot of other packages won’t be installed if you get any problems due to this.</p>
 
-<p>I think that’s going to be all for my first post, <a href="https://github.com/ShreyashPatodia/Can-You-Get-There">here</a> is a link to the repository.</p>
+<p>And these errors can be traced to this <a href="https://bugs.launchpad.net/ubuntu/+source/ubuntu-release-upgrader/+bug/1373598">bug</a>. So, unless this is fixed, this will remain a problem. There are a lot of ways to go around the problem in the <a href="https://bugs.launchpad.net/ubuntu/+source/ubuntu-release-upgrader/+bug/1373598">bugs page</a> that I mentioned earlier. Try one of those.</p>
 
-<p>P.S Everything that is related to the development of the game is in the Assets folder and you can open it up in Unity to check out all that I used.</p>
-
+<p>For me, changing the server to a different server in <a href="https://help.ubuntu.com/community/Repositories/Ubuntu#Ubuntu_Software_Tab">Software &amp; Updates</a> fixed the problem.</p>
 
 
         <p style="text-align:right;">
         
         
             <span style="float:right; margin-left:.25em;" class="mega-octicon octicon-tag"></span>
-            <a href="/archive#unity-gameengine">Unity - game engine</a>.
+            <a href="/archive#ubuntu">Ubuntu</a>.
         
         
         </p>

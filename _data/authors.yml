@@ -1,7 +1,8 @@
 # Author details.
 thepulkitagarwal:
     name: Pulkit Agarwal
-    description: "Hi! I am Pulkit."
+    description: "I am [Pulkit Agarwal](https://www.facebook.com/the.pulkitagarwal). I study Computer Science at [BITS Goa](http://www.bits-pilani.ac.in/Goa/). Currently, I am interested in web development, designing algorithms and learning new programming styles. Other than Computer Science-y stuff, I really like good stories, and well thought out puns."
+    extendedDescription: ""
     avatar: /images/layout/photos/pulkit.png
     email: thepulkitagarwal@gmail.com
     twitter: https://twitter.com/thepulkit13
@@ -10,7 +11,7 @@ thepulkitagarwal:
     linkedin: in.linkedin.com/in/thepulkitagarwal
 shreyashpatodia:
     name: Shreyash Patodia
-    description: "Hi! I am Shreyash."
+    description: "I am [Shreyash Patodia](/shreyashpatodia). I study Computer Science at the [University of Melbourne](https://www.unimelb.edu.au). I have a keen interest in the fields of Artifical Intelligence, Algorithmic Study and Game Development. Apart from Computer Science, I am an avid football fan and support Manchester United. Feel free to email me, add me on LinkedIn or wherever."
     avatar: /images/layout/photos/shreyash.png
     email: patodiashreyash32@gmail.com
     facebook: https://www.facebook.com/shreyash.patodia
