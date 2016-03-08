@@ -9,8 +9,9 @@ author: shreyashpatodia
 
 Greetings everyone !!
 
-Have you ever looked at the printf function in C and imagined, if C doesn't support overloading how does it take different number of arguments to printf.
-Now the topic of function of overloading in C is one that I find very interesting since, it does not support overloading(well, it kind of does now ! Read on for more) in a traditional Java-like way. But by messing around a little bit we can learn some really cool ways to implement the same(read:similar) functionality. 
+Have you ever looked at the printf function in C and thought, if C doesn't support overloading how does it take different number of arguments to printf.
+
+Now the topic of function of overloading in C is one that I find very interesting since it does not support overloading(well, it kind of does now ! Read on for more) in a traditional Java-like way. But by messing around a little bit we can learn some really cool ways to implement the same(read:similar) functionality. 
 
 
 The first way to get the effect of overloading is by using an array of function pointers. An example to a program that uses this is this implementation of finding the nth fibonacci number: 
