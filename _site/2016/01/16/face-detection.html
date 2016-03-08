@@ -118,10 +118,39 @@ January
 </time>
         <p>Greetings everyone !!</p>
 
-<p>This is going to be a really short post on face detection using <a href="http://opencv.org/">OpenCV</a>(CV:Computer Vision)]. Sp OpenCV is bsically an open library that provides tools that facilitate for the creation of computer vision based applications efficiently. The applications can be of varying complexities, ranging from simple built-in face detection in an image or a video using the <a href="https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework">Viola-Jones Object Detection Framework</a> or training the <a href="https://en.wikipedia.org/wiki/Haar-like_features">Haar Classifiers</a> to recognize a custom object. </p>
+<p>This is going to be a really short post on face detection using <a href="http://opencv.org/">OpenCV</a>(CV:Computer Vision)]. Sp OpenCV is bsically an open library that provides tools that facilitate for the creation of computer vision based applications efficiently. The applications can be of varying complexities, ranging from simple built-in face detection in an image or a video using the <a href="https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework">Viola-Jones Object Detection Framework</a> or training the <a href="https://en.wikipedia.org/wiki/Haar-like_features">Haar Classifiers</a> to recognize a custom object.</p>
 
 <p>So without further ado, here’s the program:</p>
 
+<noscript><pre>import numpy as np
+import cv2
+
+face_cascade = cv2.CascadeClassifier(&#39;haarcascade_frontalface_default.xml&#39;)
+eye_cascade = cv2.CascadeClassifier(&#39;haarcascade_eye.xml&#39;)
+
+cap = cv2.VideoCapture(0)
+while (True):
+
+	ret, frame = cap.read()
+	gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+	faces = face_cascade.detectMultiScale(gray, 1.3, 3)
+	for (x,y,w,h) in faces:
+	    img2 = cv2.rectangle(frame,(x,y),(x+w,y+h),(255,0,0),2)
+	    roi_gray = gray[y:y+h, x:x+w]
+	    roi_color = frame[y:y+h, x:x+w]
+	    eyes = eye_cascade.detectMultiScale(roi_gray)
+	    for (ex,ey,ew,eh) in eyes:
+	        cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),2)
+
+	cv2.imshow(&#39;frame&#39;,frame)		
+
+	k = cv2.waitKey(1)
+	if k == 27:
+	 	break
+
+		
+cv2.destroyAllWindows()</pre></noscript>
 <script src="https://gist.github.com/ShreyashPatodia/c59855288561c758445b.js"> </script>
 
 <p>Yup that’s it. This program that I’ve got here is pretty basic and doesn’t do much. I’ve been playing around with OpenCV recently so expect posts on it soon(hopefully).</p>
