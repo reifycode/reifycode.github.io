@@ -62,8 +62,10 @@ bodyclass: home
             {% endfor %}
 
             <li>
-                <h2 class="more"><span class="mega-octicon octicon-plus"></span></h2>
-                <time>{{ site.data.translations[page.lang].moreposts }}</time>
+                <a href="/archive"></a>
+                    <h2 class="more"><span class="mega-octicon octicon-plus"></span></h2>
+                    <time>{{ site.data.translations[page.lang].moreposts }}</time>
+                </a>
             </li>
         </ul>
     </div>
