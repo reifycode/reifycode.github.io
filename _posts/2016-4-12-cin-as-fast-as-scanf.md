@@ -3,7 +3,9 @@ layout: post
 published: true
 exacttime: "20:31:00"
 title: "Making cin as fast as scanf"
-category: "C++"
+category: 
+- "C++"
+- "Competitive Coding"
 author: thepulkitagarwal
 ---
 
